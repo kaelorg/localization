@@ -1,0 +1,52 @@
+{
+  "subjects": {
+    "with": "com",
+    "true": "sim",
+    "false": "não",
+    "true_capitalized": "Sim",
+    "false_capitalized": "Não"
+  },
+  "economy": {
+    "charisma": "carisma",
+    "reputation": "reputação",
+    "perfection": "perfeição",
+    "intelligence": "inteligência",
+    "charisma_plural": "carismas",
+    "reputation_plural": "reputações",
+    "perfection_plural": "perfeições",
+    "intelligence_plural": "inteligências"
+  },
+  "permissions": {
+    "createInstantInvite": "Criar Convite Instantâneo",
+    "kickMembers": "Kickar Membros",
+    "banMembers": "Banir Membros",
+    "administrator": "Administrador",
+    "manageChannels": "Gerenciar Canais",
+    "manageGuild": "Gerenciar Servidor",
+    "addReactions": "Adicionar Reações",
+    "viewAuditLogs": "Exibir Log de Auditoria",
+    "voicePrioritySpeaker": "Prioridade para Falar",
+    "stream": "Fazer Lives",
+    "readMessages": "Ler Mensagens",
+    "sendMessages": "Enviar Mensagens",
+    "sendTtsMessages": "Enviar Mensagens TTS",
+    "manageMessages": "Gerenciar Mensagens",
+    "embedLinks": "Incorporar Links",
+    "attachFiles": "Anexar Arquivos",
+    "readMessageHistory": "Ler Histórico de Mensagens",
+    "mentionEveryone": "Mencionar Todos",
+    "externalEmojis": "Usar Emojis Externos",
+    "viewGuildInsights": "Ver Estatísticas",
+    "voiceConnect": "Conectar",
+    "voiceSpeak": "Falar",
+    "voiceMuteMembers": "Mutar Membros",
+    "voiceDeafenMembers": "Ensurdecer Membros",
+    "voiceMoveMembers": "Mover Membros",
+    "voiceUseVAD": "Usar Atividade de Voz",
+    "changeNickname": "Alterar Apelido",
+    "manageNicknames": "Gerenciar Apelidos",
+    "manageRoles": "Gerenciar Funções",
+    "manageWebhooks": "Gerenciar Webhooks",
+    "manageEmojis": "Gerenciar Emojis"
+  }
+}
