@@ -1,6 +1,6 @@
 {
   "daily": {
-    "description": "Colete seu bônus diário e ganhe koins (A moeda do kael)."
+    "description": "Collect your daily bonus and earn koins (The Kael currency)."
   },
   "work": {
     "description": "Trabalhe e consiga alguns trocados no Kael."
@@ -12,49 +12,49 @@
     "description": "Gere um nome aleátorio de algum personagem de Harry Potter."
   },
   "help": {
-    "description": "Receba informações para visualizar minhas funções."
+    "description": "Receive information to view my functions."
   },
   "balance": {
-    "description": "Visualize sua carteira com saldos de reputações e dinheiro."
+    "description": "Visualize your wallet with reputation and money."
   },
   "points": {
-    "description": " Tenha acesso ao ranking de pontos das casas."
+    "description": " Have access to the ranking of points of houses."
   },
   "avatar": {
     "usage": "[@usuário]",
-    "description": "Mostra seu avatar ou de um determinado usuário."
+    "description": "Shows your or someone else's profile picture."
   },
   "userinfo": {
     "usage": "[@usuário]",
-    "description": "Receba informações pertinentes suas ou de um determinado usuário."
+    "description": "Get information relevant over your or of one determined user."
   },
   "deposit": {
     "usage": "<[all]/valor>",
-    "description": "Tenha informações de como depositar seu dinheiro no banco."
+    "description": "Have information on how to deposit your money in the bank."
   },
   "withdraw": {
     "usage": "<valor>",
-    "description": "Retire um valor específico do seu banco para sua carteira."
+    "description": "Withdraw a specific amount from your bank to your wallet."
   },
   "tankionline": {
-    "usage": "<jogador>",
-    "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
+    "usage": "<player>",
+    "description": "View your stats on Tanki Online (EN) or for a specific player."
   },
   "ban": {
-    "usage": "<@membro> [motivo]",
-    "description": "Aplique um banimento em um determinado usuário."
+    "usage": "<@member> [reason]",
+    "description": "Apply one banishment in a determined user."
   },
   "kick": {
-    "usage": "<@membro> [motivo]",
-    "description": "Aplique uma expulsão em um determinado usuário."
+    "usage": "<@member> [reason]",
+    "description": "Apply one expulsion in a determined user."
   },
   "purge": {
     "usage": "<[id]/valor>",
-    "description": "Apague um número específico de mensagens de um canal ou de um determinado usuário."
+    "description": "Clear a number specific messages in one channel or from a determined user."
   },
   "reputation": {
     "usage": "<@usuário>",
-    "description": "Dê um ponto de reputação a um amiguinho(a)."
+    "description": "Give a friend a point of reputation."
   },
   "perfection": {
     "usage": "<@usuário>",
@@ -85,7 +85,7 @@
     "description": "Transfira koins do seu banco para seus amiguinhos."
   },
   "ping": {
-    "description": "Mostra minha latência.",
+    "description": "Shows my latency.",
     "subcommands": {
       "shard": {
         "usage": "<número da shard>"
@@ -94,7 +94,7 @@
   },
   "count": {
     "usage": "[texto/canal/modelo/testar]",
-    "description": "Tenha uma lista de informações de como configurar o sistema de contador de membros.",
+    "description": "Have a list informations of as to set up the system of counter of members.",
     "subcommands": {
       "channel": {
         "usage": "<#cargo>"
@@ -109,7 +109,7 @@
   },
   "houseroles": {
     "usage": "<casa> <#cargo>",
-    "description": "Tenha acesso a uma lista de informações para configurar o cargo de uma determinada casa.",
+    "description": "Have access a list informations add or remove points of one determined house.",
     "subcommands": {
       "gryffindor": {
         "usage": "<#cargo>"

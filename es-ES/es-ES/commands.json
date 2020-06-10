@@ -8,42 +8,42 @@
     "fields": [
       {
         "name": "Lista de comandos",
-        "route": "commands"
+        "route": "comandos"
       },
       {
-        "name": "Está precisando de ajuda ?",
-        "route": "support"
+        "name": "Necesitas de ayuda?",
+        "route": "soporte"
       }
     ]
   },
   "avatar": {
     "title": "Avatar de {{ user }}",
-    "titleBot": "Avatar do servidor **{{ server }}**"
+    "titleBot": "Avatar del servidor **{{ server }}**"
   },
   "userinfo": {
-    "constnick": "Sem apelido",
+    "constnick": "Su sobrenombre",
     "title": "Informações de **{{ user }}**",
-    "nick": "Apelido",
+    "nick": "Apodo",
     "nickValue": " {{ nick }}",
-    "createdAt": "Conta criada em ",
-    "joinedAt": "Entrou no servidor em ",
-    "sharedServers": "Servidores compartilhados",
+    "createdAt": "Cuenta creado en ",
+    "joinedAt": "Ilegó en servidor en",
+    "sharedServers": "Servidores compartido",
     "noSharedServers": "Nenhum"
   },
   "kick": {
-    "noReason": "Não Especificado",
+    "noReason": "No especificado",
     "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
     "missingClientPermissions": "Eu não tenho permissões para expulsar este membro.",
-    "embedAuthor": "Kael | Expulsão",
-    "embedDescription": "{{ author }} expulsou {{ user }}.",
-    "embedReason": "Motivo"
+    "embedAuthor": "Kael | Expulsión ",
+    "embedDescription": "{{ author }} expulsar {{ user }}",
+    "embedReason": "Razón "
   },
   "ban": {
-    "noReason": "Não Especificado",
+    "noReason": "No especificado ",
     "missingUserPermissions": "Você não tem permissões para banir este membro.",
     "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
     "private": {
-      "title": "{{ guild }} | Notificação",
+      "title": "{{ guild }} Notificación",
       "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{ author }}, caso seja um engano.",
       "reasonTitle": "Motivo do banimento"
     },

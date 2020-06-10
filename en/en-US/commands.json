@@ -4,114 +4,114 @@
     "shard": "O ping da shard **{{shard}}** é **{{response}}ms**!"
   },
   "help": {
-    "description": "{{- author.mention}}, Kael um bot brasileiro projetado para gestão de servidores Discord. Tenha acesso aos meus comandos divididos por categoria acessando meu site.",
+    "description": "{{- author.mention}}, Kael a Brazilian bot designed for managing Discord servers. Get access to my commands divided by category by accessing my website.",
     "fields": [
       {
-        "name": "Lista de comandos",
+        "name": "List of commands",
         "route": "commands"
       },
       {
-        "name": "Está precisando de ajuda ?",
+        "name": "Do you need help?",
         "route": "support"
       }
     ]
   },
   "avatar": {
-    "title": "Avatar de {{ user }}",
-    "titleBot": "Avatar do servidor **{{ server }}**"
+    "title": "Avatar of {{ user }}",
+    "titleBot": "Guild icon **{{ server }}**"
   },
   "userinfo": {
-    "constnick": "Sem apelido",
+    "constnick": "No nickname",
     "title": "Informações de **{{ user }}**",
-    "nick": "Apelido",
+    "nick": "Nickname",
     "nickValue": " {{ nick }}",
-    "createdAt": "Conta criada em ",
-    "joinedAt": "Entrou no servidor em ",
-    "sharedServers": "Servidores compartilhados",
+    "createdAt": "Account created on ",
+    "joinedAt": "Joined the server in ",
+    "sharedServers": "Shared guilds",
     "noSharedServers": "Nenhum"
   },
   "kick": {
-    "noReason": "Não Especificado",
-    "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
-    "missingClientPermissions": "Eu não tenho permissões para expulsar este membro.",
-    "embedAuthor": "Kael | Expulsão",
-    "embedDescription": "{{ author }} expulsou {{ user }}.",
-    "embedReason": "Motivo"
+    "noReason": "Not Specified",
+    "missingUserPermissions": "You don't have permissions to kick this member.",
+    "missingClientPermissions": "I don't have permissions to kick that member.",
+    "embedAuthor": "Kael | Expulsion",
+    "embedDescription": "{{ author }} kicked {{ user }}.",
+    "embedReason": "Reason"
   },
   "ban": {
-    "noReason": "Não Especificado",
-    "missingUserPermissions": "Você não tem permissões para banir este membro.",
-    "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
+    "noReason": "Not Specified",
+    "missingUserPermissions": "You don't have permissions to ban this member.",
+    "missingClientPermissions": "I don't have permissions to ban that member.",
     "private": {
-      "title": "{{ guild }} | Notificação",
-      "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{ author }}, caso seja um engano.",
-      "reasonTitle": "Motivo do banimento"
+      "title": "{{ guild }} | Notification",
+      "description": "You have been banned from our server. Please contact {{author}} if it's a mistake.",
+      "reasonTitle": "Reason for ban"
     },
     "sucess": {
-      "author": "Kael | Banimento",
-      "description": "{{ author }} baniu **{{ member}}#{{ tag }}**!",
-      "reason": "Motivo"
+      "author": "Kael | Ban",
+      "description": "{{ author }} banned **{{ member}}#{{ tag }}**!",
+      "reason": "Reason"
     }
   },
   "purge": {
-    "cooldown": "Aguarde alguns segundos para executar o comando novamente!",
-    "numberLimit": "Eu só posso limpar de 2 a 150 mensagens por vez!",
+    "cooldown": "Wait a few seconds to execute the command again!",
+    "numberLimit": "I can only clear 2 to 150 messages at a time!",
     "channelSucess": "<:Limpeza:507408323306323970> **|** {{ author }} limpei {{ size }} mensagens do canal.",
     "idSucess": "<:Limpeza:507408323306323970> **|** {{ author }} limpei a mensagem do id: `{{ id }}`.",
     "noArgsProvided": "Você precisa dizer o número de mensagens ou o **id** da mensagem pra eu apagar.",
     "hasOccurredError": "Ocorreu um erro!"
   },
   "count": {
-    "reset": "Resetei todas as configurações do contador.",
-    "textParameter": "Defina a mensagem do contador. **Utilize:** [kael] como parâmetro na sua mensagem para identificar onde o contador deve aparecer.",
-    "textLimit": "A mensagem do contador não pode ultrapassar 500 caracteres!",
-    "modelNoArgs": "Defina o modelo correspondente ao contador.",
-    "channelNoArgs": "Defina o canal para onde o contador será mostrado.",
-    "noModel": "Modelo de contador não encontrado",
+    "reset": "I reset all the counter settings.",
+    "textParameter": "Set the counter message. ** Use:** [kael] as a parameter in your message to identify where the counter should appear.",
+    "textLimit": "The meter message cannot exceed 500 characters!",
+    "modelNoArgs": "Define the model corresponding to the counter.",
+    "channelNoArgs": "Define the channel where the counter will be shown.",
+    "noModel": "Counter model not found",
     "help": {
-      "author": "Ajuda | Contador",
-      "description": "Use [kael] na mensagem como parâmetro do contador.",
-      "exampleTitle": "Exemplo",
-      "exampleDesc": "Somos mais [kael] de membros, obrigado!",
-      "textTitle": "contador texto <mensagem>",
-      "textDescription": "Para definir o texto do contador.",
-      "channelTitle": "contador canal <#mencionar canal>",
-      "channelDescription": "Para definir o canal do contador.",
-      "modelTitle": "contador modelo <id do modelo>",
-      "modelDescription": "Para definir o modelo/estilo do contador.",
-      "resetTitle": "contador resetar",
-      "resetDescription": "Para resetar as configurações do contador."
+      "author": "Help | Counter",
+      "description": "Use [kael] on the message as a counter option.",
+      "exampleTitle": "Example",
+      "exampleDesc": "We're more [kael] members, thank you!",
+      "textTitle": "counter text <message>",
+      "textDescription": "Define the counter text.",
+      "channelTitle": "counter channel <#channel mention>",
+      "channelDescription": "To set the counter channel.",
+      "modelTitle": "counter model <model id>",
+      "modelDescription": "Set the counter style.",
+      "resetTitle": "counter reset",
+      "resetDescription": "To reset the counter settings."
     },
     "model": {
-      "setModel": "Modelo de contador definido:",
-      "updateModel": "Modelo de contador atualizado:",
-      "set": "Contador definido como **{{ model }}**",
-      "update": "Contador atualizado como **{{ model }}**"
+      "setModel": "Counter template set:",
+      "updateModel": "Updated counter template:",
+      "set": "Counter set to **{{ model }}**",
+      "update": "Counter updated as **{{ model }}**"
     },
     "channel": {
-      "invalidChannel": "O canal definido não é válido.",
-      "noChannel": "O canal definido não foi encontrado no servidor.",
-      "setChannel": "Canal do contador definido",
-      "updateChannel": "Canal do contador atualizado",
+      "invalidChannel": "The defined channel is not valid.",
+      "noChannel": "The defined channel was not found on the server.",
+      "setChannel": "Counter channel set",
+      "updateChannel": "Counter channel updated",
       "set": "O canal do contador foi definido em <#{{ channel }}>.",
       "update": "O canal do contador foi atualizado para <#{{ channel }}>."
     },
     "text": {
-      "setText": "Mensagem do contador definida",
-      "updateText": "Mensagem do contador atualizada",
+      "setText": "Counter message set",
+      "updateText": "Counter message updated",
       "set": "Mensagem do contador definada como ```{{ text }}```",
       "update": "Mensagem do contador atualizada como ```{{ text }}```"
     },
     "test": {
-      "noModel": "Modelo de contador não definido.",
-      "noChannel": "Canal do contador não definido.",
-      "noText": "Mensagem do contador não definida.",
-      "cooldown": "Aguarde 4 minutos para testar novamente o contador.",
+      "noModel": "Counter model not defined.",
+      "noChannel": "Counter channel not defined.",
+      "noText": "Counter message not defined.",
+      "cooldown": "Wait 4 minutes to retest the counter.",
       "embed": {
-        "title": "Definições do contador:",
-        "textTitle": "Mensagem do contador",
+        "title": "Counter settings:",
+        "textTitle": "Counter message",
         "channelTitle": "Canal do contador",
-        "modelTitle": "Estilo do contador"
+        "modelTitle": "Counter style"
       }
     }
   },
@@ -120,11 +120,11 @@
     "backgroundError": "Não consegui carregar a imagem de fundo deste perfil. Parace que a imagem usada anteriormente não é mais válida ou foi apagada. Resetei para o meu fundo padrão!"
   },
   "rep": {
-    "noArgs": "Defina o usuário a quem você quer dar um ponto de reputação.",
-    "invalidID": "O usuário definido não é válido!",
-    "noUser": "O usuario definido não foi encontrado.",
-    "cooldown": "Dê outro ponto de reputação em **{{ time }}**.",
-    "sucess": "<:Rep:507421776054321152> **|** {{ author }} deu um ponto de reputação em **{{ user }}**."
+    "noArgs": "Define the user to whom you want to give a reputation point.",
+    "invalidID": "The defined user is not valid!",
+    "noUser": "The defined user was not found.",
+    "cooldown": "Give another point of reputation in **{{ time }}**.",
+    "sucess": "<:Rep:507421776054321152> **|** {{author}} gave a reputation point at **{{user}}**."
   },
   "perf": {
     "noUser": "O usuario definido não foi encontrado.",
@@ -169,8 +169,8 @@
     }
   },
   "daily": {
-    "sucessTitle": "Parabéns, você recebeu:",
-    "cooldown": "Pegue seu bônus diário novamente em **{{ time }}**.",
+    "sucessTitle": "Congratulations, you received:",
+    "cooldown": "Get your daily bonus again at **{{time}}**.",
     "extract": "Você recebeu {{ koins }} koins no seu daily em {{ time }}"
   },
   "work": {
@@ -202,28 +202,28 @@
   },
   "deposit": {
     "help": {
-      "author": "Ajuda | Depositar",
-      "bankAll": "depositar tudo",
-      "bank": "Deposite todo seu saldo em koins.",
-      "bankDp": "depositar <valor>",
-      "bankdps": "Deposite um valor específico no seu banco."
+      "author": "Help | Deposit",
+      "bankAll": "deposit all",
+      "bank": "Deposit your all balance in koins.",
+      "bankDp": "deposit <value>",
+      "bankdps": "Deposit a specific amount with your bank."
     },
     "all": {
-      "sucess": "Depositei um total de <:koins:710557837776126053> **{{ quanty }}** Koins no seu banco.",
+      "sucess": "I deposited a total of <:koins:710557837776126053>**{{ quanty }}** Koins in your bank.",
       "extract": "Você depositou {{ koins }} koins no seu banco em {{ time }}",
-      "failed": "Você não possui Koins o suficiente para efetuar o depósito."
+      "failed": "You don't have enough Koins to make the deposit."
     },
     "bank": {
-      "noArgs": "Defina o valor para depositar no banco.",
-      "nanNumber": "O valor deve ser um número.",
-      "invalidBalance": "Você não possui saldo para efetuar o depósito!",
-      "sucess": "Você depositou <:koins:710557837776126053> **{{ valor }}** Koins no seu banco."
+      "noArgs": "Set the amount to deposit at the bank.",
+      "nanNumber": "The value must be a number.",
+      "invalidBalance": "You have no balance to make the deposit!",
+      "sucess": "You have deposited <:koins:710557837776126053> **{{ valor }}** Koins in your bank."
     }
   },
   "withdraw": {
-    "number": "Defina o valor do saque. Máx: 50,000",
-    "noBalance": "Você não possui saldo para fazer um saque.",
-    "noBalanceRate": "Você não possui saldo líquido com taxa para realizar o saque.",
+    "number": "Set the withdrawal amount. Max: 50,000",
+    "noBalance": "You have no balance to make a withdrawal.",
+    "noBalanceRate": "You don't have a net balance with a fee for withdrawing.",
     "numLimit": "Saques acima de 10 Koins.",
     "addLimit": "Valor máximo por saque, 500,0000 koins.",
     "ticket": "Recibo",
