@@ -1,0 +1,22 @@
+name: Merge Pull Request
+
+on:
+  pull_request:
+    branches: [bot, site, dashboard]
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Merge
+        uses: sudo-bot/action-pull-request-merge@v1.1.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ github.event.pull_request.number }}
+          merge-method: squash
+          allowed-usernames-regex: ^KaelBot$
+          merge-title: 'chore: automatically merge translations'
