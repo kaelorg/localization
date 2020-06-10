@@ -1,0 +1,146 @@
+{
+  "daily": {
+    "description": "Colete seu bônus diário e ganhe koins (A moeda do kael)."
+  },
+  "work": {
+    "description": "Trabalhe e consiga alguns trocados no Kael."
+  },
+  "bank": {
+    "description": "Obtenha o saldo líquido de koins do servidor."
+  },
+  "randomname": {
+    "description": "Gere um nome aleátorio de algum personagem de Harry Potter."
+  },
+  "help": {
+    "description": "Receba informações para visualizar minhas funções."
+  },
+  "balance": {
+    "description": "Visualize sua carteira com saldos de reputações e dinheiro."
+  },
+  "points": {
+    "description": " Tenha acesso ao ranking de pontos das casas."
+  },
+  "avatar": {
+    "usage": "[@usuário]",
+    "description": "Mostra seu avatar ou de um determinado usuário."
+  },
+  "userinfo": {
+    "usage": "[@usuário]",
+    "description": "Receba informações pertinentes suas ou de um determinado usuário."
+  },
+  "deposit": {
+    "usage": "<[all]/valor>",
+    "description": "Tenha informações de como depositar seu dinheiro no banco."
+  },
+  "withdraw": {
+    "usage": "<valor>",
+    "description": "Retire um valor específico do seu banco para sua carteira."
+  },
+  "tankionline": {
+    "usage": "<jogador>",
+    "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
+  },
+  "ban": {
+    "usage": "<@membro> [motivo]",
+    "description": "Aplique um banimento em um determinado usuário."
+  },
+  "kick": {
+    "usage": "<@membro> [motivo]",
+    "description": "Aplique uma expulsão em um determinado usuário."
+  },
+  "purge": {
+    "usage": "<[id]/valor>",
+    "description": "Apague um número específico de mensagens de um canal ou de um determinado usuário."
+  },
+  "reputation": {
+    "usage": "<@usuário>",
+    "description": "Dê um ponto de reputação a um amiguinho(a)."
+  },
+  "perfection": {
+    "usage": "<@usuário>",
+    "description": "Dê um ponto de perfeição a um amiguinho(a)."
+  },
+  "charisma": {
+    "usage": "<@usuário>",
+    "description": "Dê um ponto de carisma a um amiguinho(a)."
+  },
+  "intelligence": {
+    "usage": "<@usuário>",
+    "description": "Dê um ponto de inteligência a um amiguinho(a)."
+  },
+  "ranking": {
+    "usage": "<rep/perf/char/int>",
+    "description": "Visualize o ranking global dos pontos sociais."
+  },
+  "profile": {
+    "usage": "[@usuário]",
+    "description": "Visualize seu estiloso perfil ou de um amiguinho(a)."
+  },
+  "rob": {
+    "usage": "<@usuário>",
+    "description": "Consiga um dinheiro roubando de outro usuário."
+  },
+  "transfer": {
+    "usage": "<@usuário/valor>",
+    "description": "Transfira koins do seu banco para seus amiguinhos."
+  },
+  "ping": {
+    "description": "Mostra minha latência.",
+    "subcommands": {
+      "shard": {
+        "usage": "<número da shard>"
+      }
+    }
+  },
+  "count": {
+    "usage": "[texto/canal/modelo/testar]",
+    "description": "Tenha uma lista de informações de como configurar o sistema de contador de membros.",
+    "subcommands": {
+      "channel": {
+        "usage": "<#cargo>"
+      },
+      "model": {
+        "usage": "<[nome/id] do modelo>"
+      },
+      "text": {
+        "usage": "<texto>"
+      }
+    }
+  },
+  "houseroles": {
+    "usage": "<casa> <#cargo>",
+    "description": "Tenha acesso a uma lista de informações para configurar o cargo de uma determinada casa.",
+    "subcommands": {
+      "gryffindor": {
+        "usage": "<#cargo>"
+      },
+      "hufflepuff": {
+        "usage": "<#cargo>"
+      },
+      "ravenclaw": {
+        "usage": "<#cargo>"
+      },
+      "slytherin": {
+        "usage": "<#cargo>"
+      }
+    }
+  },
+  "housepoints": {
+    "usage": "<casa> <@pontos>",
+    "description": "Tenha acesso a uma lista de informações para adicionar ou remover pontos de uma determinada casa.",
+    "subcommands": {
+      "gryffindor": {
+        "usage": "<@pontos>"
+      },
+      "hufflepuff": {
+        "usage": "<@pontos>"
+      },
+      "ravenclaw": {
+        "usage": "<@pontos>"
+      },
+      "slytherin": {
+        "usage": "<@pontos>"
+      }
+    }
+  }
+}
