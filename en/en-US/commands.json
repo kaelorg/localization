@@ -1,0 +1,392 @@
+{
+  "ping": {
+    "ping": "Meu ping atual é **{{response}}ms**!",
+    "shard": "O ping da shard **{{shard}}** é **{{response}}ms**!"
+  },
+  "help": {
+    "description": "{{- author.mention}}, Kael um bot brasileiro projetado para gestão de servidores Discord. Tenha acesso aos meus comandos divididos por categoria acessando meu site.",
+    "fields": [
+      {
+        "name": "Lista de comandos",
+        "route": "commands"
+      },
+      {
+        "name": "Está precisando de ajuda ?",
+        "route": "support"
+      }
+    ]
+  },
+  "avatar": {
+    "title": "Avatar de {{ user }}",
+    "titleBot": "Avatar do servidor **{{ server }}**"
+  },
+  "userinfo": {
+    "constnick": "Sem apelido",
+    "title": "Informações de **{{ user }}**",
+    "nick": "Apelido",
+    "nickValue": " {{ nick }}",
+    "createdAt": "Conta criada em ",
+    "joinedAt": "Entrou no servidor em ",
+    "sharedServers": "Servidores compartilhados",
+    "noSharedServers": "Nenhum"
+  },
+  "kick": {
+    "noReason": "Não Especificado",
+    "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
+    "missingClientPermissions": "Eu não tenho permissões para expulsar este membro.",
+    "embedAuthor": "Kael | Expulsão",
+    "embedDescription": "{{ author }} expulsou {{ user }}.",
+    "embedReason": "Motivo"
+  },
+  "ban": {
+    "noReason": "Não Especificado",
+    "missingUserPermissions": "Você não tem permissões para banir este membro.",
+    "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
+    "private": {
+      "title": "{{ guild }} | Notificação",
+      "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{ author }}, caso seja um engano.",
+      "reasonTitle": "Motivo do banimento"
+    },
+    "sucess": {
+      "author": "Kael | Banimento",
+      "description": "{{ author }} baniu **{{ member}}#{{ tag }}**!",
+      "reason": "Motivo"
+    }
+  },
+  "purge": {
+    "cooldown": "Aguarde alguns segundos para executar o comando novamente!",
+    "numberLimit": "Eu só posso limpar de 2 a 150 mensagens por vez!",
+    "channelSucess": "<:Limpeza:507408323306323970> **|** {{ author }} limpei {{ size }} mensagens do canal.",
+    "idSucess": "<:Limpeza:507408323306323970> **|** {{ author }} limpei a mensagem do id: `{{ id }}`.",
+    "noArgsProvided": "Você precisa dizer o número de mensagens ou o **id** da mensagem pra eu apagar.",
+    "hasOccurredError": "Ocorreu um erro!"
+  },
+  "count": {
+    "reset": "Resetei todas as configurações do contador.",
+    "textParameter": "Defina a mensagem do contador. **Utilize:** [kael] como parâmetro na sua mensagem para identificar onde o contador deve aparecer.",
+    "textLimit": "A mensagem do contador não pode ultrapassar 500 caracteres!",
+    "modelNoArgs": "Defina o modelo correspondente ao contador.",
+    "channelNoArgs": "Defina o canal para onde o contador será mostrado.",
+    "noModel": "Modelo de contador não encontrado",
+    "help": {
+      "author": "Ajuda | Contador",
+      "description": "Use [kael] na mensagem como parâmetro do contador.",
+      "exampleTitle": "Exemplo",
+      "exampleDesc": "Somos mais [kael] de membros, obrigado!",
+      "textTitle": "contador texto <mensagem>",
+      "textDescription": "Para definir o texto do contador.",
+      "channelTitle": "contador canal <#mencionar canal>",
+      "channelDescription": "Para definir o canal do contador.",
+      "modelTitle": "contador modelo <id do modelo>",
+      "modelDescription": "Para definir o modelo/estilo do contador.",
+      "resetTitle": "contador resetar",
+      "resetDescription": "Para resetar as configurações do contador."
+    },
+    "model": {
+      "setModel": "Modelo de contador definido:",
+      "updateModel": "Modelo de contador atualizado:",
+      "set": "Contador definido como **{{ model }}**",
+      "update": "Contador atualizado como **{{ model }}**"
+    },
+    "channel": {
+      "invalidChannel": "O canal definido não é válido.",
+      "noChannel": "O canal definido não foi encontrado no servidor.",
+      "setChannel": "Canal do contador definido",
+      "updateChannel": "Canal do contador atualizado",
+      "set": "O canal do contador foi definido em <#{{ channel }}>.",
+      "update": "O canal do contador foi atualizado para <#{{ channel }}>."
+    },
+    "text": {
+      "setText": "Mensagem do contador definida",
+      "updateText": "Mensagem do contador atualizada",
+      "set": "Mensagem do contador definada como ```{{ text }}```",
+      "update": "Mensagem do contador atualizada como ```{{ text }}```"
+    },
+    "test": {
+      "noModel": "Modelo de contador não definido.",
+      "noChannel": "Canal do contador não definido.",
+      "noText": "Mensagem do contador não definida.",
+      "cooldown": "Aguarde 4 minutos para testar novamente o contador.",
+      "embed": {
+        "title": "Definições do contador:",
+        "textTitle": "Mensagem do contador",
+        "channelTitle": "Canal do contador",
+        "modelTitle": "Estilo do contador"
+      }
+    }
+  },
+  "profile": {
+    "lang": "BR",
+    "backgroundError": "Não consegui carregar a imagem de fundo deste perfil. Parace que a imagem usada anteriormente não é mais válida ou foi apagada. Resetei para o meu fundo padrão!"
+  },
+  "rep": {
+    "noArgs": "Defina o usuário a quem você quer dar um ponto de reputação.",
+    "invalidID": "O usuário definido não é válido!",
+    "noUser": "O usuario definido não foi encontrado.",
+    "cooldown": "Dê outro ponto de reputação em **{{ time }}**.",
+    "sucess": "<:Rep:507421776054321152> **|** {{ author }} deu um ponto de reputação em **{{ user }}**."
+  },
+  "perf": {
+    "noUser": "O usuario definido não foi encontrado.",
+    "cooldown": "Dê outro ponto de perfeição em **{{ time }}**.",
+    "sucess": "<:Perf:507419390732402688> **|** {{ author }} deu um ponto de perfeição em **{{ user }}**."
+  },
+  "char": {
+    "noUser": "O usuario definido não foi encontrado.",
+    "cooldown": "Dê outro ponto de carisma em **{{ time }}**.",
+    "sucess": "<:Car:507423088233676811> **|** {{ author }} deu um ponto de carisma em **{{ user }}**."
+  },
+  "int": {
+    "noUser": "O usuario definido não foi encontrado.",
+    "cooldown": "Dê outro ponto de inteligência em **{{ time }}**.",
+    "sucess": "<:Int:507421511737409536> **|** {{ author }} deu um ponto de inteligência em **{{ user }}**."
+  },
+  "rankings": {
+    "title": "Rankings | Modo de Uso:",
+    "rep": {
+      "title": "Top 5 global reputações no Kael",
+      "usageTitle": "ranking rep",
+      "usageDescription": "Para visualizar o top 5 global de reputações.",
+      "reps": "com **{{ num }}** reputações"
+    },
+    "perf": {
+      "title": "Top 5 global perfeições no Kael",
+      "usageTitle": "ranking perf",
+      "usageDescription": "Para visualizar o top 5 global de perfeições.",
+      "perfs": "com **{{ num }}** perfeições"
+    },
+    "char": {
+      "title": "Top 5 global carismáticos no Kael",
+      "usageTitle": "ranking char",
+      "usageDescription": "Para visualizar o top 5 global de carismáticos.",
+      "chars": "com **{{ num }}** carismas"
+    },
+    "int": {
+      "title": "Top 5 global inteligências no Kael",
+      "usageTitle": "ranking int",
+      "usageDescription": "Para visualizar o top 5 global de inteligências.",
+      "ints": "com **{{ num }}** inteligências"
+    }
+  },
+  "daily": {
+    "sucessTitle": "Parabéns, você recebeu:",
+    "cooldown": "Pegue seu bônus diário novamente em **{{ time }}**.",
+    "extract": "Você recebeu {{ koins }} koins no seu daily em {{ time }}"
+  },
+  "work": {
+    "sucess1": "Você ajudou uma velhinha na rua e ganhou **{{koins}}**!",
+    "sucess2": "Você começou a trabalhar no McDonald's e ganhou **{{koins}}**!",
+    "sucess3": "Você trabalhou em casa e ganhou **{{koins}}**!",
+    "sucess4": "Você trabalha em uma vinícola e esmaga uvas por algum tempo. Você é pago com **{{koins}}** e recebe uma garrafa de vinho!",
+    "sucess5": "Você saiu para pescar acabou cambaleando em uma bota que tinha um colar dentro! Você o vendeu na loja de penhores e ganhou **{{koins}}**!",
+    "sucess6": "Você lavou a louça e ganhou **{{koins}}**!",
+    "sucess7": "Você trabalha em um mercado que vende maças por dia. Eles te pagaram **{{koins}}** por ajudá-los!",
+    "sucess8": "Você trabalha como um hacker profissional do Minecraft. Você consegue obter **{{koins}}**!",
+    "sucessTitle": "Prêmio recebido:",
+    "cooldown": "Tome um chá, trabalhe novamente em **{{ time }}**.",
+    "extract": "Você recebeu {{ koins }} koins no seu trabalho em {{ time }}"
+  },
+  "balance": {
+    "myBalance": "Saldo",
+    "koins": "Você possui um total de <:koins:710557837776126053> **{{ koins }}** Koins ",
+    "coin": "Carteira",
+    "char": "Carisma",
+    "int": "Inteligência",
+    "charisma": "<:Car:507423088233676811> **{{count}}** ponto de carisma",
+    "charisma_plural": "<:Car:507423088233676811> **{{count}}** pontos de carisma.",
+    "intelligence": "<:Int:507421511737409536> **{{count}}** ponto de inteligência.",
+    "intelligence_plural": "<:Int:507421511737409536> **{{count}}** pontos de inteligência.",
+    "pts": " pontos",
+    "bank": "Saldo líquido",
+    "bankDp": "Você possui um total de <:koins:710557837776126053> **{{ koins }}** Koins"
+  },
+  "deposit": {
+    "help": {
+      "author": "Ajuda | Depositar",
+      "bankAll": "depositar tudo",
+      "bank": "Deposite todo seu saldo em koins.",
+      "bankDp": "depositar <valor>",
+      "bankdps": "Deposite um valor específico no seu banco."
+    },
+    "all": {
+      "sucess": "Depositei um total de <:koins:710557837776126053> **{{ quanty }}** Koins no seu banco.",
+      "extract": "Você depositou {{ koins }} koins no seu banco em {{ time }}",
+      "failed": "Você não possui Koins o suficiente para efetuar o depósito."
+    },
+    "bank": {
+      "noArgs": "Defina o valor para depositar no banco.",
+      "nanNumber": "O valor deve ser um número.",
+      "invalidBalance": "Você não possui saldo para efetuar o depósito!",
+      "sucess": "Você depositou <:koins:710557837776126053> **{{ valor }}** Koins no seu banco."
+    }
+  },
+  "withdraw": {
+    "number": "Defina o valor do saque. Máx: 50,000",
+    "noBalance": "Você não possui saldo para fazer um saque.",
+    "noBalanceRate": "Você não possui saldo líquido com taxa para realizar o saque.",
+    "numLimit": "Saques acima de 10 Koins.",
+    "addLimit": "Valor máximo por saque, 500,0000 koins.",
+    "ticket": "Recibo",
+    "description": "Saque solitado de  <:koins:710557837776126053> **{{ val }}** Koins com taxa de {{percent}}%. Você pagou ao banco  <:koins:710557837776126053> **{{ pay }}** Koins.",
+    "total": "Total retirado",
+    "apv": "Saque aprovado",
+    "witchdraw": "Você sacou  <:koins:710557837776126053> **{{ sq }}** Koins.",
+    "extract": "Você pagou {{ koins }} para seu banco em {{ time }}",
+    "extract2": "Você efetuou um saque de {{ koins }} em {{ time }}"
+  },
+  "transfer": {
+    "extract": "Você transferiu {{ koins }} koins para {{ user }}#{{ descrim }} em {{ time }}",
+    "extract2": "Você movimentou na sua conta um total de {{ koins }} em {{ time }}",
+    "ticket": "Recibo",
+    "description": "Transferência solicitada de <:koins:710557837776126053> **{{ val }}** Koins com taxa de  {{ percent}}%. Taxa aplicada de <:koins:710557837776126053> **{{ pay }}** Koins.",
+    "total": "Total movimentado",
+    "apv": "Transferência aprovada",
+    "transfer": "Transferência realizada de <:koins:710557837776126053> **{{ ts }}** Koins para **{{ user }}#{{ descrim }}**",
+    "noTransferRate": "Você não possui saldo líquido mais taxa para realizar está transferência.",
+    "noTransfer": "Você não possui saldo para realizar uma transferência."
+  },
+  "rob": {
+    "noArgs": "Defina o usuário a quem você quer roubar.",
+    "sucess1": "Você roubou {{koins}} de **{{user}}** <:KaelFeliz:702288213183692922>",
+    "sucess2": "Você se manteve calmo ao roubar **{{user}}** e conseguiu {{koins}} <:KaelFeliz:702288213183692922>",
+    "sucess3": "Você conseguiu fazer com que **{{user}}** entregasse todo o dinheiro! Você conseguiu {{koins}} <:KaelFeliz:702288213183692922>",
+    "failed1": "Você tentou roubar {{koins}} de **{{ user }}**, porém, uma policia passou por perto e você foi preso <:KaelTriste:702288216480546839>",
+    "failed2": "Você ficou nervoso ao roubar **{{user}}**, com isso, perdeu {{koins}} <:KaelTriste:702288216480546839>",
+    "failed3": "Você foi pego tentando roubar **{{user}}** e foi multado em {{koins}} <:KaelTriste:702288216480546839>",
+    "semgrana": "Você tentou roubar **{{ user}}**, porém, o mesmo estava sem dinheiro! Você perdeu {{ koins}}.",
+    "cooldown": "Foi por pouco hoje, roube novamente em **{{ time }}**."
+  },
+  "serverBank": {
+    "embed": {
+      "author": "Banco {{ guild }}",
+      "description": "O Banco possui um total de **{{ koins }}**"
+    }
+  },
+  "tankionline": {
+    "playerNotFound": "Nenhum jogador foi encontrado.",
+    "moreProfile": "Veja Completo",
+    "name": "Nome",
+    "premium": "Conta premium",
+    "kills": "Abates",
+    "deaths": "Mortes",
+    "rank": "Classificação",
+    "golds": "Caixas de ouro capturadas",
+    "crystals": "Cristais conquistados",
+    "kd": "Abates x Mortes (KD)"
+  },
+  "harrypotter": {
+    "randomname": {
+      "title": "Personagem de Harry Potter:"
+    }
+  },
+  "houseroles": {
+    "help": {
+      "title": "Como configurar um cargo de  uma casa?",
+      "gryffindorTitle": "cc grifinoria <@menção>",
+      "slytherinTitle": "cc sonserina <@menção>",
+      "ravenclawTitle": "cc corvinal <@menção>",
+      "hufflepuffTitle": "cc lufa-lufa <@menção>",
+      "gryffindor": "Para definir o cargo da casa Grifinória.",
+      "slytherin": "Para definir o cargo da casa Sonserina.",
+      "ravenclaw": "Para definir o cargo da casa Corvinal.",
+      "hufflepuff": "Para definir o cargo da casa Lufa-Lufa.",
+      "resetTitle": "cc <nome da casa> resetar",
+      "reset": "Para resetar/redefinir o cargo de uma casa."
+    },
+    "gryffindor": {
+      "db": "Este cargo já está definido em outro casa.",
+      "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo da casa Grifinória.",
+      "reset": "{{ author }}, resetei o cargo da casa Grifinória.",
+      "noHouse": "Você deve definir um cargo/tag representando a casa **Grifinória**."
+    },
+    "slytherin": {
+      "db": "Este cargo já está definido em outro casa.",
+      "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo da casa Sonserina.",
+      "reset": "{{ author }}, resetei o cargo da casa Sonserina.",
+      "noHouse": "Você deve definir um cargo/tag representando a casa **Sonserina**."
+    },
+    "ravenclaw": {
+      "db": "Este cargo já está definido em outro casa.",
+      "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo da casa Corvinal.",
+      "reset": "{{ author }}, resetei o cargo da casa Corvinal.",
+      "noHouse": "Você deve definir um cargo/tag representando a casa **Corvinal**."
+    },
+    "hufflepuff": {
+      "db": "Este cargo já está definido em outro casa.",
+      "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo da casa Lufa-Lufa.",
+      "reset": "{{ author }}, resetei o cargo da casa Lufa-Lufa.",
+      "noHouse": "Você deve definir um cargo/tag representando a casa **Lufa-Lufa**."
+    }
+  },
+  "rolesUndefined": {
+    "gryffindor": "O cargo da casa **Grifinória** não foi definido no servidor.",
+    "slytherin": "O cargo da casa **Sonserina** não foi definido no servidor.",
+    "ravenclaw": "O cargo da casa **Corvinal** não foi definido no servidor.",
+    "hufflepuff": "O cargo da casa **Lufa-Lufa** não foi definido no servidor."
+  },
+  "list": {
+    "embedTitle": "Cargos de cada casa"
+  },
+  "points": {
+    "embedTitle": "Pontuações das casas",
+    "gryffindor": "<:gryffindor:707480788760789042> Grifinória",
+    "slytherin": "<:slytherin:707480727792648203> Sonserina",
+    "ravenclaw": "<:havenclaw:707480727960158218> Corvinal",
+    "hufflepuff": "<:hufflepuff:707480728002363393> Lufa-Lufa",
+    "pts": " pontos",
+    "pt": "1 ponto"
+  },
+  "housepoints": {
+    "removePoints": "Defina a quantidade de pontos a remover a casa.",
+    "removeHelp": {
+      "title": "Como remover pontos a uma casa?",
+      "gryffindorTitle": "rvp grifinoria <quantidade de pontos>",
+      "slytherinTitle": "rvp sonserina <quantidade de pontos>",
+      "ravenclawTitle": "rvp corvinal <quantidade de pontos>",
+      "hufflepuffTitle": "rvp lufa-lufa <quantidade de pontos>",
+      "gryffindor": "Para remover pontos a casa Grifinória.",
+      "slytherin": "Para remover pontos a casa Sonserina.",
+      "ravenclaw": "Para remover pontos a casa Corvinal.",
+      "hufflepuff": "Para remover pontos a casa Lufa-Lufa."
+    },
+    "addHelp": {
+      "title": "Como adicionar pontos a uma casa?",
+      "gryffindorTitle": "hp grifinoria <quantidade de pontos>",
+      "slytherinTitle": "hp sonserina <quantidade de pontos>",
+      "ravenclawTitle": "hp corvinal <quantidade de pontos>",
+      "hufflepuffTitle": "hp lufa-lufa <quantidade de pontos>",
+      "gryffindor": "Para adicionar pontos a casa Grifinória.",
+      "slytherin": "Para adicionar pontos a casa Sonserina.",
+      "ravenclaw": "Para adicionar pontos a casa Corvinal.",
+      "hufflepuff": "Para adicionar pontos a casa Lufa-Lufa."
+    },
+    "gryffindor": {
+      "addPoints": "Defina a quantidade de pontos a dar a casa **Grifinória**.",
+      "removePoints": "Defina a quantidade de pontos a remover a casa.",
+      "addSucess": "{{ author }} você deu **mais {{ pts }} pontos** para a casa Grifinória.",
+      "removeSucess": "{{ author }} você removeu **mais {{ pts }} pontos** da casa Grifinória.",
+      "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
+    },
+    "slytherin": {
+      "addPoints": "Defina a quantidade de pontos a dar a casa **Sonserina**.",
+      "removePoints": "Defina a quantidade de pontos a remover a casa.",
+      "addSucess": "{{ author }} você deu **mais {{ pts }} pontos** para a casa Sonserina.",
+      "removeSucess": "{{ author }} você removeu **mais {{ pts }} pontos** da casa Sonserina.",
+      "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
+    },
+    "ravenclaw": {
+      "addPoints": "Defina a quantidade de pontos a dar a casa **Corvinal**.",
+      "removePoints": "Defina a quantidade de pontos a remover a casa.",
+      "addSucess": "{{ author }} você deu **mais {{ pts }} pontos** para a casa Corvinal.",
+      "removeSucess": "{{ author }} você removeu **mais {{ pts }} pontos** da casa Corvinal.",
+      "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
+    },
+    "hufflepuff": {
+      "addPoints": "Defina a quantidade de pontos a dar a casa **Lufa-Lufa**.",
+      "removePoints": "Defina a quantidade de pontos a remover a casa.",
+      "addSucess": "{{ author }} você deu **mais {{ pts }} pontos** para a casa Lufa-Lufa.",
+      "removeSucess": "{{ author }} você removeu **mais {{ pts }} pontos** da casa Lufa-Lufa.",
+      "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
+    }
+  }
+}
