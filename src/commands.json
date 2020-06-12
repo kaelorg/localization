@@ -51,6 +51,20 @@
       "author": "Kael | Banimento",
       "description": "{{ author }} baniu **{{ member}}#{{ tag }}**!",
       "reason": "Motivo"
+    },
+    "freeze": {
+      "author": "Kael | Congelamento",
+      "description": "❄️ {{ author }} congelou **{{ member}}#{{ tag}}**!",
+      "noRole": "É necessário definir um cargo de congelamento para que eu possa adicionar no infrator durante a execução do oomando",
+      "invalidRole": "Não encontrei este cargo no servidor ou o mesmo encontra-se inválido!",
+      "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo dde congelamento do servidor.",
+      "channel": {
+      "setChannel": "Canal de congelamento definido",
+      "updateChannel": "Canal de congelamento atualizado",
+      "set": "O canal de congelamento foi definido em <#{{ channel }}>.",
+      "update": "O canal de congelamento foi atualizado para <#{{ channel }}>.",
+      "noChannel":"É necessário definir um canal de congelamento parar que os motivos sejam enviado no mesmo."
+      }
     }
   },
   "purge": {
