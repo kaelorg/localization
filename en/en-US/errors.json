@@ -1,5 +1,5 @@
 {
-  "missingSendMessagesPermission": "Olá {{- author.mention}}, eu não posso enviar mensagens no servidor, ative se deseja usufruir de meus comandos!",
+  "missingSendMessagesPermission": "Olá {{- author.mention}}, eu não posso enviar mensagens no servidor, ative minhas permissões se deseja usufruir de meus comandos!",
   "requestError": "Ocorreu um erro ao obter o resultado da consulta.",
   "requestTimeOutError": "O servidor demorou pra dar uma resposta, e a requisição foi cancelada.",
   "notAcceptBot": "Este usuário é um bot... não posso aceitar.",
