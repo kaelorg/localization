@@ -35,7 +35,7 @@
     "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
     "missingClientPermissions": "Eu não tenho permissões para expulsar este membro.",
     "embedAuthor": "Kael | Expulsão",
-    "embedDescription": "{{ author }} expulsou {{ user }}.",
+    "embedDescription": "{{- author}} expulsou **{{- member}}**!",
     "embedReason": "Motivo"
   },
   "ban": {
@@ -43,13 +43,13 @@
     "missingUserPermissions": "Você não tem permissões para banir este membro.",
     "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
     "private": {
-      "title": "{{ guild }} | Notificação",
-      "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{ author }}, caso seja um engano.",
+      "title": "{{guild}} | Notificação",
+      "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{- author}}, caso seja um engano.",
       "reasonTitle": "Motivo do banimento"
     },
     "sucess": {
       "author": "Kael | Banimento",
-      "description": "{{ author }} baniu **{{ member}}#{{ tag }}**!",
+      "description": "{{- author}} baniu **{{- member}}**!",
       "reason": "Motivo"
     },
     "freeze": {
