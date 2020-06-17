@@ -196,6 +196,8 @@
     "sucess6": "Você lavou a louça e ganhou **{{koins}}**!",
     "sucess7": "Você trabalha em um mercado que vende maças por dia. Eles te pagaram **{{koins}}** por ajudá-los!",
     "sucess8": "Você trabalha como um hacker profissional do Minecraft. Você consegue obter **{{koins}}**!",
+    "nescord1": "**Dia de sorte!** O DJ **[Senhor Nescau](https://youtube.com/c/canalsrnescau)** te chamou para uma collab. Juntos, vocês arrecadaram **{{koins}}**!",
+    "nescord2": "**Dia de sorte!** O DJ **[Senhor Nescau](https://youtube.com/c/servive)** te chamou para uma collab. Juntos, vocês arrecadaram **{{koins}}**!",
     "sucessTitle": "Prêmio recebido:",
     "cooldown": "Tome um chá, trabalhe novamente em **{{ time }}**.",
     "extract": "Você recebeu {{ koins }} koins no seu trabalho em {{ time }}"
