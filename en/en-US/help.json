@@ -40,6 +40,10 @@
     "usage": "<jogador>",
     "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
   },
+  "freeze": {
+    "usage": "<tempo> <@membro> [motivo]",
+    "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível."
+  },
   "ban": {
     "usage": "<@membro> [motivo]",
     "description": "Aplique um banimento em um determinado usuário."
