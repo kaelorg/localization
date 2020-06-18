@@ -1,5 +1,6 @@
 {
   "missingSendMessagesPermission": "Olá {{- author.mention}}, eu não posso enviar mensagens no servidor, ative minhas permissões se deseja usufruir de meus comandos!",
+  "someAcceptIntegerNumber": "Você precisa me forncer um número inteiro.",
   "requestError": "Ocorreu um erro ao obter o resultado da consulta.",
   "requestTimeOutError": "O servidor demorou pra dar uma resposta, e a requisição foi cancelada.",
   "notAcceptBot": "Este usuário é um bot... não posso aceitar.",
@@ -17,8 +18,8 @@
   "missingValidChannel": "Você precisa me fornecer um canal válido.",
   "missingNumber": "Você precisa me fornecer um número.",
   "missingValidNumber": "Você precisa me fornecer um número válido.",
-  "missingBiggerNumber": "Você precisa me dar um número maior que **{{number}}**.",
-  "missingSmallerNumber": "Você precisa me dar um número menor que **{{number}}**.",
+  "missingBiggerNumber": "Você precisa me fornecer um número maior ou igual a **{{number}}**.",
+  "missingSmallerNumber": "Você precisa me fornecer um número menor ou igual a **{{number}}**.",
   "missingClientPermissions": "Preciso da permissão **{{permission}}** para executar esse comando.",
   "missingMultipleClientPermissions": "Preciso das permissões **{{permission}}** para executar esse comando.",
   "missingUserPermissions": "Você precisa da permissão **{{permission}}** para executar esse comando.",
