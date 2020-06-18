@@ -54,7 +54,7 @@
     },
     "freeze": {
       "author": "Kael | Congelamento",
-      "description": "❄️ {{ author }} congelou **{{ member}}#{{ tag}}**!",
+      "description": "❄️ {{- author}} congelou **{{- member}}**!",
       "noRole": "É necessário definir um cargo de congelamento para que eu possa adicionar no infrator durante a execução do oomando",
       "invalidRole": "Não encontrei este cargo no servidor ou o mesmo encontra-se inválido!",
       "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo dde congelamento do servidor.",
