@@ -16,6 +16,15 @@
       }
     ]
   },
+  "support": {
+    "title": "Kael um bot para gestão de servidores Discord.",
+    "website": "Website",
+    "websiteDesc": "Lista com meus comandos e acesso ao meu painel de configurações você encontra no meu [website](https://kaelbot.xyz/)",
+    "server": "Servidor Discord",
+    "serverDesc": "[Servidor oficial do Kael](https://discord.gg/DBMvAzA)",
+    "contato": "Contato",
+    "contatoDesc": "Para assuntos comerciais tratar em **support@kaelbot.xyz**"
+  },
   "avatar": {
     "title": "Avatar de {{ user }}",
     "titleBot": "Avatar do servidor **{{ server }}**"
@@ -56,7 +65,7 @@
       "author": "Kael | Congelamento",
       "time": "Tempo",
       "timeDescription": "**{{time}}** minutos",
-      "hasInFreeze": "O membro inserido já está congelado.",
+      "hasInFreeze": "<:FreezeKaelAlteration:723060626322358272> O membro mencionado já encontra-se congelado.",
       "description": "<:FreezeKaelAlteration:723060626322358272> {{- author}} congelou **{{- member}}**!",
       "noRole": "É necessário definir um cargo de congelamento para que eu possa adicionar no infrator durante a execução do oomando",
       "invalidRole": "Não encontrei este cargo no servidor ou o mesmo encontra-se inválido!",
@@ -200,7 +209,8 @@
     "sucess7": "Você trabalha em um mercado que vende maças por dia. Eles te pagaram **{{koins}}** por ajudá-los!",
     "sucess8": "Você trabalha como um hacker profissional do Minecraft. Você consegue obter **{{koins}}**!",
     "nescord1": "**Dia de sorte!** O DJ **[Senhor Nescau](https://youtube.com/c/canalsrnescau)** te chamou para uma collab. Juntos, vocês arrecadaram **{{koins}}**!",
-    "nescord2": "**Dia de sorte!** O DJ **[Senhor Nescau](https://youtube.com/c/servive)** te chamou para uma collab. Juntos, vocês arrecadaram **{{koins}}**!",
+    "nescord2": "**Dia de sorte!** O DJ **[Servive](https://youtube.com/c/servive)** te chamou para uma collab. Juntos, vocês arrecadaram **{{koins}}**!",
+    "mayoga1": "Você e **[MayogaX](https://www.youtube.com/user/MayogaX)** foram convidados a gravarem uma live de Paladins na Twicth. Juntos, vocês arrecadaram **{{koins}}**!",
     "sucessTitle": "Prêmio recebido:",
     "cooldown": "Tome um chá, trabalhe novamente em **{{ time }}**.",
     "extract": "Você recebeu {{ koins }} koins no seu trabalho em {{ time }}"
