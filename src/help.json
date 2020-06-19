@@ -21,15 +21,18 @@
     "description": " Tenha acesso ao ranking de pontos das casas."
   },
   "avatar": {
-    "usage": "[@usuário]",
+    "usage": "[@usuário/id/nome] [servidor]",
     "description": "Mostra seu avatar ou de um determinado usuário."
   },
+  "support": {
+    "description": "Detalhes e informações do bot."
+  },
   "userinfo": {
-    "usage": "[@usuário]",
+    "usage": "[@usuário/id]",
     "description": "Receba informações pertinentes suas ou de um determinado usuário."
   },
   "deposit": {
-    "usage": "<[all]/valor>",
+    "usage": "[all] <valor>",
     "description": "Tenha informações de como depositar seu dinheiro no banco."
   },
   "withdraw": {
@@ -41,7 +44,7 @@
     "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
   },
   "freeze": {
-    "usage": "<tempo> <@membro> [motivo]",
+    "usage": "<canal> <cargo> | <tempo> <@membro> [motivo]",
     "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível."
   },
   "ban": {
@@ -53,7 +56,7 @@
     "description": "Aplique uma expulsão em um determinado usuário."
   },
   "purge": {
-    "usage": "<[id]/valor>",
+    "usage": "[id da mensagem] <valor>",
     "description": "Apague um número específico de mensagens de um canal ou de um determinado usuário."
   },
   "reputation": {
