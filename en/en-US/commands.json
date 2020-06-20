@@ -64,7 +64,7 @@
     "freeze": {
       "author": "Kael | Congelamento",
       "time": "Tempo",
-      "timeDescription": "**{{time}}** minutos",
+      "timeDescription": "**{{time}}**",
       "hasInFreeze": "<:FreezeKaelAlteration:723060626322358272> O membro mencionado já encontra-se congelado.",
       "description": "<:FreezeKaelAlteration:723060626322358272> {{- author}} congelou **{{- member}}**!",
       "noRole": "É necessário definir um cargo de congelamento para que eu possa adicionar no infrator durante a execução do oomando",
