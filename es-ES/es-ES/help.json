@@ -44,8 +44,8 @@
     "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
   },
   "freeze": {
-    "usage": "<canal> <cargo> | <tempo> <@membro> [motivo]",
-    "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível."
+    "usage": "<canal> <cargo> <minutos> <@membro> [motivo]",
+    "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo por tempo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível. Usuários com permissões de Administração ou Gerenciar Canais são imunes."
   },
   "ban": {
     "usage": "<@membro> [motivo]",
@@ -57,7 +57,7 @@
   },
   "purge": {
     "usage": "[id da mensagem] <valor>",
-    "description": "Apague um número específico de mensagens de um canal ou de um determinado usuário."
+    "description": "Apague um número específico de mensagens de um canal ou de uma mensagem específica utilizando o id da mesma."
   },
   "reputation": {
     "usage": "<@usuário>",
