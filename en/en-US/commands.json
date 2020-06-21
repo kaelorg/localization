@@ -422,5 +422,11 @@
       "removeSucess": "{{ author }} você removeu **mais {{ pts }} pontos** da casa Lufa-Lufa.",
       "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
     }
+  },
+  "rolldice": {
+    "rolldice": "Rolar dados",
+    "first": "Primeiro dado",
+    "second": "Segundo dado",
+    "dropped": "Caiu no lado **{{ dropp }}**"
   }
 }
