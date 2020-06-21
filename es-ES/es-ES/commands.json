@@ -222,17 +222,11 @@
   },
   "balance": {
     "myBalance": "Saldo",
-    "koins": "Você possui um total de <:koins:710557837776126053> **{{ koins }}** Koins ",
-    "coin": "Carteira",
-    "char": "Carisma",
-    "int": "Inteligência",
-    "charisma": "<:Car:507423088233676811> **{{count}}** ponto de carisma",
-    "charisma_plural": "<:Car:507423088233676811> **{{count}}** pontos de carisma.",
-    "intelligence": "<:Int:507421511737409536> **{{count}}** ponto de inteligência.",
-    "intelligence_plural": "<:Int:507421511737409536> **{{count}}** pontos de inteligência.",
-    "pts": " pontos",
+    "koins": "<:koins:710557837776126053> **{{ koins }}** Koins ",
+    "coin": "Na carteira",
     "bank": "Saldo líquido",
-    "bankDp": "Você possui um total de <:koins:710557837776126053> **{{ koins }}** Koins"
+    "bankDp": "<:koins:710557837776126053> **{{ koins }}** Koins",
+    "total": "Você possui um total de <:koins:710557837776126053> **{{ total }}** Koins"
   },
   "deposit": {
     "help": {
