@@ -76,6 +76,11 @@
         "set": "O canal de congelamento foi definido em <#{{ channel }}>.",
         "update": "O canal de congelamento foi atualizado para <#{{ channel }}>.",
         "noChannel": "É necessário definir um canal de congelamento parar que os motivos sejam enviado no mesmo."
+      },
+      "status": {
+        "title": "Status de congelamento",
+        "desc": "<@{{ user }}> encontra-se congelado. Motivo: **{{ reason }}**. Tempo restante de congelamento: **{{ time }}**.",
+        "noDesc": "<@{{ user }}> não encontra-se congelado neste servidor."
       }
     }
   },
