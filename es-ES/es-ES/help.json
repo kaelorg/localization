@@ -88,7 +88,7 @@
     "description": "Consiga um dinheiro roubando de outro usuário."
   },
   "transfer": {
-    "usage": "<@usuário/valor>",
+    "usage": "<@usuário/valor> [servidor/valor]",
     "description": "Transfira koins do seu banco para seus amiguinhos."
   },
   "ping": {
