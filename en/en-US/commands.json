@@ -271,7 +271,12 @@
     "apv": "Transferência aprovada",
     "transfer": "Transferência realizada de <:koins:710557837776126053> **{{ ts }}** Koins para **{{ user }}#{{ descrim }}**",
     "noTransferRate": "Você não possui saldo líquido mais taxa para realizar está transferência.",
-    "noTransfer": "Você não possui saldo para realizar uma transferência."
+    "noTransfer": "Você não possui saldo para realizar uma transferência.",
+    "server": {
+      "extract": "Você transferiu {{ koins }} koins para o banco {{ bank }} em {{ time }}",
+      "extract2": "Você movimentou na sua conta um total de {{ koins }} em {{ time }}",
+      "transfer": "Você transferiu <:koins:710557837776126053> **{{ koins }}** koins para o banco **{{ bank }}**!"
+    }
   },
   "rob": {
     "noArgs": "Defina o usuário a quem você quer roubar.",
