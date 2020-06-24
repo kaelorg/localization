@@ -1,4 +1,7 @@
 {
+  "rolldice": {
+    "description": "Role um dado comum."
+  },
   "daily": {
     "description": "Colete seu bônus diário e ganhe koins (A moeda do kael)."
   },
@@ -18,21 +21,25 @@
     "description": "Visualize sua carteira com saldos de reputações e dinheiro."
   },
   "points": {
-    "description": " Tenha acesso ao ranking de pontos das casas."
-  },
-  "avatar": {
-    "usage": "[@usuário/id/nome] [servidor]",
-    "description": "Mostra seu avatar ou de um determinado usuário."
+    "description": "Tenha acesso ao ranking de pontos das casas."
   },
   "support": {
     "description": "Detalhes e informações do bot."
   },
+  "eval": {
+    "usage": "<código>",
+    "description": "Executa um código javascript."
+  },
+  "avatar": {
+    "usage": "[server] | [@usuário] ",
+    "description": "Mostra seu avatar ou de um determinado usuário."
+  },
   "userinfo": {
-    "usage": "[@usuário/id]",
+    "usage": "[@usuário]",
     "description": "Receba informações pertinentes suas ou de um determinado usuário."
   },
   "deposit": {
-    "usage": "[all] <valor>",
+    "usage": "[all] | <valor>",
     "description": "Tenha informações de como depositar seu dinheiro no banco."
   },
   "withdraw": {
@@ -44,7 +51,7 @@
     "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
   },
   "freeze": {
-    "usage": "<canal> <cargo> <minutos> <@membro> [motivo]",
+    "usage": "[role|status|channel] | <@membro> [motivo]",
     "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo por tempo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível. Usuários com permissões de Administração ou Gerenciar Canais são imunes."
   },
   "ban": {
@@ -56,7 +63,7 @@
     "description": "Aplique uma expulsão em um determinado usuário."
   },
   "purge": {
-    "usage": "[id da mensagem] <valor>",
+    "usage": "<quantidade ou id de uma mensagem>",
     "description": "Apague um número específico de mensagens de um canal ou de uma mensagem específica utilizando o id da mesma."
   },
   "reputation": {
@@ -76,7 +83,7 @@
     "description": "Dê um ponto de inteligência a um amiguinho(a). Dica: quanto mais pontos de inteligência, mais chance você tem de roubar."
   },
   "ranking": {
-    "usage": "<rep/perf/char/int>",
+    "usage": "[rep|perf|char|int]",
     "description": "Visualize o ranking global dos pontos sociais."
   },
   "profile": {
@@ -87,35 +94,41 @@
     "usage": "<@usuário>",
     "description": "Consiga um dinheiro roubando de outro usuário."
   },
-  "transfer": {
-    "usage": "<@usuário/valor> [servidor/valor]",
-    "description": "Transfira koins do seu banco para seus amiguinhos."
-  },
   "ping": {
+    "usage": "[shard]",
     "description": "Mostra minha latência.",
     "subcommands": {
       "shard": {
-        "usage": "<número da shard>"
+        "usage": "<id da shard>"
+      }
+    }
+  },
+  "transfer": {
+    "usage": "[server] | <@usuário> <valor>",
+    "description": "Transfira koins do seu banco para seus amiguinhos.",
+    "subcommands": {
+      "server": {
+        "usage": "<id do servidor> <valor>"
       }
     }
   },
   "count": {
-    "usage": "[texto/canal/modelo/testar]",
+    "usage": "[text|test|model|channel]",
     "description": "Tenha uma lista de informações de como configurar o sistema de contador de membros.",
     "subcommands": {
+      "text": {
+        "usage": "<texto>"
+      },
       "channel": {
         "usage": "<#cargo>"
       },
       "model": {
-        "usage": "<[nome/id] do modelo>"
-      },
-      "text": {
-        "usage": "<texto>"
+        "usage": "<nome/id do modelo>"
       }
     }
   },
   "houseroles": {
-    "usage": "<casa> <#cargo>",
+    "usage": "[gryffindor|hufflepuff|ravenclaw|slytherin]",
     "description": "Tenha acesso a uma lista de informações para configurar o cargo de uma determinada casa.",
     "subcommands": {
       "gryffindor": {
@@ -133,24 +146,21 @@
     }
   },
   "housepoints": {
-    "usage": "<casa> <@pontos>",
+    "usage": "[gryffindor|hufflepuff|ravenclaw|slytherin]",
     "description": "Tenha acesso a uma lista de informações para adicionar ou remover pontos de uma determinada casa.",
     "subcommands": {
       "gryffindor": {
-        "usage": "<@pontos>"
+        "usage": "<pontos>"
       },
       "hufflepuff": {
-        "usage": "<@pontos>"
+        "usage": "<pontos>"
       },
       "ravenclaw": {
-        "usage": "<@pontos>"
+        "usage": "<pontos>"
       },
       "slytherin": {
-        "usage": "<@pontos>"
+        "usage": "<pontos>"
       }
     }
-  },
-  "rolldice": {
-    "description": "Role um dado comum."
   }
 }
