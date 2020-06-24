@@ -39,6 +39,10 @@
     "sharedServers": "Servidores compartilhados",
     "noSharedServers": "Nenhum"
   },
+  "serverbooster": {
+    "noBooster": "{{- member}} não é booster",
+    "time": "Booster desde **{{time}}**"
+  },
   "kick": {
     "noReason": "Não Especificado",
     "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
@@ -110,6 +114,8 @@
       "channelDescription": "Para definir o canal do contador.",
       "modelTitle": "contador modelo <id do modelo>",
       "modelDescription": "Para definir o modelo/estilo do contador.",
+      "modelsTitle": "contador modelos",
+      "modelsDescription": "Para visualizar os modelos do contador.",
       "resetTitle": "contador resetar",
       "resetDescription": "Para resetar as configurações do contador."
     },
@@ -118,6 +124,16 @@
       "updateModel": "Modelo de contador atualizado:",
       "set": "Contador definido como **{{ model }}**",
       "update": "Contador atualizado como **{{ model }}**"
+    },
+    "models": {
+      "title": "Modelos do contador do Kael",
+      "default": "Padrões cores sólidas",
+      "animate": "Animados Platina e Lotus",
+      "animate2": "Animados Cobalto e Moinho",
+      "special": "Animados Especiais",
+      "holiday": "Modelos de eventos",
+      "partners": "Modelos para parceiros",
+      "coming": "**Em breve...**"
     },
     "channel": {
       "invalidChannel": "O canal definido não é válido.",
