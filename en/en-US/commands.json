@@ -1,17 +1,17 @@
 {
   "ping": {
-    "ping": "Meu ping atual é **{{response}}ms**!",
-    "shard": "O ping da shard **{{shard}}** é **{{response}}ms**!"
+    "ping": "My actual ping is **{{response}}ms**!",
+    "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
   },
   "help": {
-    "description": "{{- author.mention}}, Kael um bot brasileiro projetado para gestão de servidores Discord. Tenha acesso aos meus comandos divididos por categoria acessando meu site.",
+    "description": "{{- author.mention}}, Kael, a Brazilian bot designed for managing Discord servers. Get access to my commands divided by category by accessing my website.",
     "fields": [
       {
-        "name": "Lista de comandos",
+        "name": "Command list",
         "route": "commands"
       },
       {
-        "name": "Está precisando de ajuda ?",
+        "name": "Do you need help?",
         "route": "support"
       }
     ]
