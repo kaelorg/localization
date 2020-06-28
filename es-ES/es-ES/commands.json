@@ -32,7 +32,7 @@
   "userinfo": {
     "constnick": "Sem apelido",
     "title": "Informações de **{{ user }}**",
-    "nick": "Apelido",
+    "nick": "Apodo",
     "nickValue": " {{ nick }}",
     "createdAt": "Conta criada em ",
     "joinedAt": "Entrou no servidor em ",
