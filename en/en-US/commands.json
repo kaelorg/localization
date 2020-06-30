@@ -21,56 +21,56 @@
     "website": "Website",
     "websiteDesc": "List with my commands and acess to my dashboard you find in my [website](https://kaelbot.xyz/)",
     "server": "Discord Server",
-    "serverDesc": "[Servidor oficial do Kael](https://discord.gg/DBMvAzA)",
-    "contato": "Contato",
-    "contatoDesc": "Para assuntos comerciais tratar em **support@kaelbot.xyz**"
+    "serverDesc": "[Kael's Official Server (https://discord.gg/DBMvAzA)",
+    "contato": "Contact",
+    "contatoDesc": "For business matters send a email to **support@kaelbot.xyz**"
   },
   "avatar": {
-    "title": "Avatar de {{ user }}",
-    "titleBot": "Avatar do servidor **{{ server }}**"
+    "title": "{{ user }}'s profile picture",
+    "titleBot": "**{{ server }}** server-icon"
   },
   "userinfo": {
-    "constnick": "Sem apelido",
-    "title": "Informações de **{{ user }}**",
-    "nick": "Apelido",
+    "constnick": "No nickname",
+    "title": "Info about **{{ user }}**",
+    "nick": "Nickname",
     "nickValue": " {{ nick }}",
-    "createdAt": "Conta criada em ",
-    "joinedAt": "Entrou no servidor em ",
-    "sharedServers": "Servidores compartilhados",
-    "noSharedServers": "Nenhum"
+    "createdAt": "Account created in ",
+    "joinedAt": "Join the server in ",
+    "sharedServers": "Shared servers",
+    "noSharedServers": "None"
   },
   "serverbooster": {
-    "noBooster": "{{- member}} não é booster",
-    "time": "Booster desde **{{time}}**"
+    "noBooster": "{{- member}} is not booster",
+    "time": "Booster since **{{time}}**"
   },
   "kick": {
-    "noReason": "Não Especificado",
-    "missingUserPermissions": "Você não tem permissões para expulsar este membro.",
-    "missingClientPermissions": "Eu não tenho permissões para expulsar este membro.",
-    "embedAuthor": "Kael | Expulsão",
-    "embedDescription": "{{- author}} expulsou **{{- member}}**!",
-    "embedReason": "Motivo"
+    "noReason": "Not Specified",
+    "missingUserPermissions": "You don't have permissions to kick this member.",
+    "missingClientPermissions": "I don't have permissions to kick that member.",
+    "embedAuthor": "Kael | Kick",
+    "embedDescription": "{{- author}} kick **{{- member}}**!",
+    "embedReason": "Reason"
   },
   "ban": {
-    "noReason": "Não Especificado",
-    "missingUserPermissions": "Você não tem permissões para banir este membro.",
-    "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
+    "noReason": "Not Specified",
+    "missingUserPermissions": "You don't have permissions to ban this member.",
+    "missingClientPermissions": "I don't have permissions to ban that member.",
     "private": {
-      "title": "{{guild}} | Notificação",
-      "description": "Você foi banido de nosso servidor. Por favor, entre em contanto com {{- author}}, caso seja um engano.",
-      "reasonTitle": "Motivo do banimento"
+      "title": "{{guild}} | Notification",
+      "description": "You have been banned from our server. Please contact {{- author}} if it's a mistake.",
+      "reasonTitle": "Ban Reason"
     },
     "sucess": {
-      "author": "Kael | Banimento",
-      "description": "{{- author}} baniu **{{- member}}**!",
-      "reason": "Motivo"
+      "author": "Kael | Banishment",
+      "description": "{{- author}} banned **{{- member}}**!",
+      "reason": "Reason"
     },
     "freeze": {
-      "author": "Kael | Congelamento",
-      "time": "Tempo",
+      "author": "Kael | Freeze",
+      "time": "Time",
       "timeDescription": "<:KaelRelogio:707764843720998923> **{{time}}**",
-      "hasInFreeze": "<:FreezeKaelAlteration:723060626322358272> O membro mencionado já encontra-se congelado.",
-      "description": "{{- author}} congelou **{{- member}}**!",
+      "hasInFreeze": "<:FreezeKaelAlteration:723060626322358272> Mentioned member is already freezed.",
+      "description": "{{- author}} froze **{{- member}}**!",
       "noRole": "É necessário definir um cargo de congelamento para que eu possa adicionar no infrator durante a execução do oomando",
       "invalidRole": "Não encontrei este cargo no servidor ou o mesmo encontra-se inválido!",
       "roleSucess": "{{ author }}, definido <@&{{ rol }}> como cargo dde congelamento do servidor.",
