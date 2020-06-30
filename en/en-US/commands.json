@@ -17,10 +17,10 @@
     ]
   },
   "support": {
-    "title": "Kael um bot para gestão de servidores Discord.",
+    "title": "Kael, a bot for managing Discord servers.",
     "website": "Website",
-    "websiteDesc": "Lista com meus comandos e acesso ao meu painel de configurações você encontra no meu [website](https://kaelbot.xyz/)",
-    "server": "Servidor Discord",
+    "websiteDesc": "List with my commands and acess to my dashboard you find in my [website](https://kaelbot.xyz/)",
+    "server": "Discord Server",
     "serverDesc": "[Servidor oficial do Kael](https://discord.gg/DBMvAzA)",
     "contato": "Contato",
     "contatoDesc": "Para assuntos comerciais tratar em **support@kaelbot.xyz**"
