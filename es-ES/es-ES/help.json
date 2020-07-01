@@ -116,7 +116,7 @@
     }
   },
   "count": {
-    "usage": "[texto/teste/modelo/modelos/canal]",
+    "usage": "[text|test|model|models|channel]",
     "description": "Tenha uma lista de informações de como configurar o sistema de contador de membros.",
     "subcommands": {
       "text": {
