@@ -3,7 +3,7 @@
     "description": "Role um dado comum."
   },
   "daily": {
-    "description": "Colete seu bônus diário e ganhe koins (A moeda do kael)."
+    "description": "Collect your daily bonus and earn koins (The Kael currency)."
   },
   "work": {
     "description": "Trabalhe e consiga alguns trocados no Kael."
@@ -15,7 +15,7 @@
     "description": "Gere um nome aleátorio de algum personagem de Harry Potter."
   },
   "help": {
-    "description": "Receba informações para visualizar minhas funções."
+    "description": "Receive information to view my functions."
   },
   "balance": {
     "description": "Visualize sua carteira com saldos de reputações e dinheiro."
@@ -47,19 +47,19 @@
   },
   "withdraw": {
     "usage": "<valor>",
-    "description": "Retire um valor específico do seu banco para sua carteira."
+    "description": "Withdraw a specific amount from your bank to your wallet."
   },
   "tankionline": {
     "usage": "<jogador>",
-    "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
+    "description": "View your stats on Tanki Online (EN) or for a specific player."
   },
   "freeze": {
     "usage": "[role|status|channel] | <@membro> [motivo]",
     "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo por tempo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível. Usuários com permissões de Administração ou Gerenciar Canais são imunes."
   },
   "ban": {
-    "usage": "<@membro> [motivo]",
-    "description": "Aplique um banimento em um determinado usuário."
+    "usage": "<@member> [reason]",
+    "description": "Apply one banishment in a determined user."
   },
   "kick": {
     "usage": "<@membro> [motivo]",
