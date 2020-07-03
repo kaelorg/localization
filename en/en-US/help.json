@@ -2,6 +2,9 @@
   "rolldice": {
     "description": "Role um dado comum."
   },
+  "shard": {
+    "description": "Mostra em qual shard o servidor está."
+  },
   "daily": {
     "description": "Collect your daily bonus and earn koins (The Kael currency)."
   },
@@ -112,6 +115,14 @@
     "subcommands": {
       "server": {
         "usage": "<id do servidor> <valor>"
+      }
+    }
+  },
+  "vanity": {
+    "usage": "[add]",
+    "subcommands": {
+      "add": {
+        "usage": "<@membro> <tempo>"
       }
     }
   },

@@ -1,4 +1,5 @@
 {
+  "shard": "O servidor **{{- guild}}** se encontra na shard **{{shard}}**.",
   "ping": {
     "ping": "My actual ping is **{{response}}ms**!",
     "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
@@ -16,6 +17,25 @@
       }
     ]
   },
+  "vanity": {
+    "title": "Sistema de cargo Premium",
+    "description": "Voilà! Se você deseja configurar cargos premium para usuários é seu dia de sorte!. Acesse o **[link]({{- link}})** do dashboard e o configure.",
+    "list": {
+      "title": "Membros vip no servidor",
+      "noneUsers": "Nenhum membro adicionado..."
+    },
+    "add": {
+      "title": "Usuário vip adicionado",
+      "donateBy": "Doado por",
+      "role": "Cargo recebido",
+      "receivedBy": "Usuário que recebeu o vip",
+      "timeLeft": "Tempo restante",
+      "missingTime": "Você precisa inserir o tempo do vip.",
+      "alreadyGive": "Desculpe... Você já deu seu vip pra algum usuário.",
+      "userAlreadyVip": "Desculpe... O membro que você inseriu já é vip no servidor.",
+      "noVip": "Desculpe... Você precisa ser um usuário vip para poder doar o mesmo."
+    }
+  },
   "support": {
     "title": "Kael, a bot for managing Discord servers.",
     "website": "Website",
@@ -27,7 +47,7 @@
   },
   "avatar": {
     "title": "Avatar de {{- user}}",
-    "titleBot": "Avatar do servidor **{{- server}}**"
+    "titleServer": "Avatar do servidor **{{- guild}}**"
   },
   "userinfo": {
     "constNick": "Sem apelido",
@@ -304,11 +324,9 @@
     "semgrana": "Você tentou roubar **{{user}}**, porém, o mesmo estava sem dinheiro! Você perdeu {{koins}}.",
     "cooldown": "Foi por pouco hoje, roube novamente em **{{time}}**."
   },
-  "serverBank": {
-    "embed": {
-      "author": "Banco {{guild}}",
-      "description": "O Banco possui um total de **{{koins}}**"
-    }
+  "bank": {
+    "author": "Banco {{- guild}}",
+    "description": "O Banco possui um total de **{{koins}}**"
   },
   "tankionline": {
     "playerNotFound": "Nenhum jogador foi encontrado.",
