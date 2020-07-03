@@ -2,6 +2,9 @@
   "rolldice": {
     "description": "Role um dado comum."
   },
+  "shard": {
+    "description": "Mostra em qual shard o servidor está."
+  },
   "daily": {
     "description": "Colete seu bônus diário e ganhe koins (A moeda do kael)."
   },
@@ -112,6 +115,14 @@
     "subcommands": {
       "server": {
         "usage": "<id do servidor> <valor>"
+      }
+    }
+  },
+  "vanity": {
+    "usage": "[add]",
+    "subcommands": {
+      "add": {
+        "usage": "<@membro> <tempo>"
       }
     }
   },
