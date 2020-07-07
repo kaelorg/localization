@@ -18,22 +18,22 @@
     ]
   },
   "vanity": {
-    "title": "Sistema de cargo Premium",
-    "description": "Voilà! Se você deseja configurar cargos premium para usuários é seu dia de sorte!. Acesse o **[link]({{- link}})** do dashboard e o configure.",
+    "title": "Sistema de Cargo Premium",
+    "description": "Esse é meu sistema de adição de vips para usuários premium no seu servidor. Acesse ao meu **[painel]({{- link}})** para configurar.",
     "list": {
       "title": "Membros vip no servidor",
       "noneUsers": "Nenhum membro adicionado..."
     },
     "add": {
       "title": "Usuário vip adicionado",
-      "donateBy": "Doado por",
-      "role": "Cargo recebido",
+      "donateBy": "Vip de",
+      "role": "Vip recebido",
       "receivedBy": "Usuário que recebeu o vip",
-      "timeLeft": "Tempo restante",
+      "timeLeft": "Tempo restante do vip",
       "missingTime": "Você precisa inserir o tempo do vip.",
       "alreadyGive": "Desculpe... Você já deu seu vip pra algum usuário.",
       "userAlreadyVip": "Desculpe... O membro que você inseriu já é vip no servidor.",
-      "noVip": "Desculpe... Você precisa ser um usuário vip para poder doar o mesmo."
+      "noVip": "Você não é um usuário vip no servidor."
     }
   },
   "support": {
