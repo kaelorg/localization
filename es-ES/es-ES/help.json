@@ -119,7 +119,7 @@
     }
   },
   "vanity": {
-    "usage": "[add/vips]",
+    "usage": "[add|vips]",
     "description": "Adicione seu vip em um amigo(a) ou tenha informações sobre usuários vips no servidor.",
     "subcommands": {
       "add": {
