@@ -84,6 +84,13 @@
       "description": "{{- author}} baniu **{{- member}}**!",
       "reason": "Motivo"
     },
+    "unban": {
+      "isNotBanned": "Este usuário não está banido no servidor.",
+      "sucess": {
+        "author": "Kael | Desbanimento",
+        "description": "{{- author}} desbaniu **{{- member}}**!"
+      }
+    },
     "freeze": {
       "author": "Kael | Congelamento",
       "time": "Tempo",
