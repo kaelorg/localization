@@ -8,6 +8,8 @@
   "devOnly": "Você precisa ser um desenvolvedor verificado para executar esse comando.",
   "guildOnly": "Esse comando só pode ser executado em um servidor.",
   "missingString": "Você precisa me fornecer um texto.",
+  "missingHex": "Você precisa definir um valor hexadecimal.",
+  "missingValidHex": "Você precisa me fornecer uma cor hex válida.",
   "missingServer": "Você precisa me fornecer um servidor.",
   "missingValidServer": "Você precisa me fornecer um servidor válido.",
   "missingUser": "Você precisa me fornecer um usuário.",
