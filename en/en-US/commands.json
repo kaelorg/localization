@@ -188,6 +188,10 @@
       }
     }
   },
+  "colorole": {
+    "hPosition": "O cargo definido está acima do meu e eu não consigo alterar. Por favor, mova meu cargo para cima do cargo em que você deseja alterar a cor.",
+    "sucess": "A cor do cargo foi alterada."
+  },
   "profile": {
     "lang": "BR",
     "backgroundError": "Não consegui carregar a imagem de fundo deste perfil. Parace que a imagem usada anteriormente não é mais válida ou foi apagada. Resetei para o meu fundo padrão!"
