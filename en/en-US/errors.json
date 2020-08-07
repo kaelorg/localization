@@ -1,6 +1,7 @@
 {
   "missingSendMessagesPermission": "Hi {{- author.mention}}, I can't send messages on the server, activate my permissions if you want to take advantage of my commands!",
   "someAcceptIntegerNumber": "You need to provide me with a valid number.",
+  "needSmallerString": "Você precisa me fornecer um texto com **{{length}}** ou menos caracteres.",
   "requestError": "An error occurred while retrieving the query result.",
   "requestTimeOutError": "The server took a long time to respond, and the request was canceled.",
   "notAcceptBot": "This user is a bot... I can't accept it.",
