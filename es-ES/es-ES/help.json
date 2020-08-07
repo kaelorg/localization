@@ -30,15 +30,16 @@
     "description": "Detalhes e informações do bot."
   },
   "serverbooster": {
+    "usage": "[@membro]",
     "description": "Tenha a sua data de ativação do nitro booster no servidor ou de algum usuário."
   },
   "eval": {
     "usage": "<código>",
     "description": "Executa um código javascript."
   },
-  "avatar": {
-    "usage": "[server] | [@usuário] ",
-    "description": "Mostra seu avatar ou de um determinado usuário."
+  "colorrole": {
+    "usage": "<@cargo> <#cor>",
+    "description": "Altera a cor do cargo inserido."
   },
   "userinfo": {
     "usage": "[@usuário]",
@@ -56,13 +57,13 @@
     "usage": "<jogador>",
     "description": "Veja suas estatísticas no Tanki Online (EN) ou de um determinado jogador."
   },
-  "freeze": {
-    "usage": "[role|status|channel] | <@membro> [motivo]",
-    "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo por tempo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível. Usuários com permissões de Administração ou Gerenciar Canais são imunes."
-  },
   "ban": {
     "usage": "<@membro> [motivo]",
     "description": "Aplique um banimento em um determinado usuário."
+  },
+  "unban": {
+    "usage": "<@membro> [motivo]",
+    "description": "Anistie determinado usuário de um banimento."
   },
   "kick": {
     "usage": "<@membro> [motivo]",
@@ -109,6 +110,15 @@
       }
     }
   },
+  "avatar": {
+    "usage": "[server] | [@usuário] ",
+    "description": "Mostra seu avatar ou de um determinado usuário ou servidor.",
+    "subcommands": {
+      "server": {
+        "usage": "[id do servidor]"
+      }
+    }
+  },
   "transfer": {
     "usage": "[server] | <@usuário> <valor>",
     "description": "Transfira koins do seu banco para seus amiguinhos.",
@@ -127,6 +137,33 @@
       }
     }
   },
+  "autorole": {
+    "usage": "[add|list|reset|remove]",
+    "description": "Veja uma lista de informações de como usar meu autocargo.",
+    "subcommands": {
+      "add": {
+        "usage": "<@cargo>"
+      },
+      "remove": {
+        "usage": "<@cargo>"
+      }
+    }
+  },
+  "freeze": {
+    "usage": "[role|status|channel] | <@membro> <tempo> [motivo]",
+    "description": "Ban Congelante. Bana usuários do seu servidor sem os tirar do mesmo por tempo. O efeito do congelamento apenas remove permissões de ver canais de texto e voz e, apenas o canal de motivo fica visível. Usuários com permissões de Administração ou Gerenciar Canais são imunes.",
+    "subcommands": {
+      "channel": {
+        "usage": "<#canal>"
+      },
+      "role": {
+        "usage": "<@cargo>"
+      },
+      "status": {
+        "usage": "<@membro>"
+      }
+    }
+  },
   "count": {
     "usage": "[text|test|model|models|channel]",
     "description": "Tenha uma lista de informações de como configurar o sistema de contador de membros.",
@@ -135,7 +172,7 @@
         "usage": "<texto>"
       },
       "channel": {
-        "usage": "<#cargo>"
+        "usage": "<#canal>"
       },
       "model": {
         "usage": "<nome/id do modelo>"
@@ -147,16 +184,16 @@
     "description": "Tenha acesso a uma lista de informações para configurar o cargo de uma determinada casa.",
     "subcommands": {
       "gryffindor": {
-        "usage": "<#cargo>"
+        "usage": "<@cargo>"
       },
       "hufflepuff": {
-        "usage": "<#cargo>"
+        "usage": "<@cargo>"
       },
       "ravenclaw": {
-        "usage": "<#cargo>"
+        "usage": "<@cargo>"
       },
       "slytherin": {
-        "usage": "<#cargo>"
+        "usage": "<@cargo>"
       }
     }
   },
@@ -165,16 +202,36 @@
     "description": "Tenha acesso a uma lista de informações para adicionar ou remover pontos de uma determinada casa.",
     "subcommands": {
       "gryffindor": {
-        "usage": "<pontos>"
+        "usage": "<pontos>",
+        "subcommands": {
+          "remove": {
+            "usage": "<pontos>"
+          }
+        }
       },
       "hufflepuff": {
-        "usage": "<pontos>"
+        "usage": "<pontos>",
+        "subcommands": {
+          "remove": {
+            "usage": "<pontos>"
+          }
+        }
       },
       "ravenclaw": {
-        "usage": "<pontos>"
+        "usage": "<pontos>",
+        "subcommands": {
+          "remove": {
+            "usage": "<pontos>"
+          }
+        }
       },
       "slytherin": {
-        "usage": "<pontos>"
+        "usage": "<pontos>",
+        "subcommands": {
+          "remove": {
+            "usage": "<pontos>"
+          }
+        }
       }
     }
   }
