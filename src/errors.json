@@ -1,6 +1,7 @@
 {
   "missingSendMessagesPermission": "Olá {{- author.mention}}, eu não posso enviar mensagens no servidor, ative minhas permissões se deseja usufruir de meus comandos!",
   "someAcceptIntegerNumber": "Você precisa me forncer um número inteiro.",
+  "needSmallerString": "Você precisa me fornecer um texto com **{{length}}** ou menos caracteres.",
   "requestError": "Ocorreu um erro ao obter o resultado da consulta.",
   "requestTimeOutError": "O servidor demorou pra dar uma resposta, e a requisição foi cancelada.",
   "notAcceptBot": "Este usuário é um bot... não posso aceitar.",

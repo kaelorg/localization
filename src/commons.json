@@ -3,18 +3,18 @@
     "with": "com",
     "true": "sim",
     "false": "não",
-    "true_capitalized": "Sim",
-    "false_capitalized": "Não"
+    "trueCapitalized": "Sim",
+    "falseCapitalized": "Não"
   },
   "economy": {
     "charisma": "carisma",
     "reputation": "reputação",
     "perfection": "perfeição",
     "intelligence": "inteligência",
-    "charisma_plural": "carismas",
-    "reputation_plural": "reputações",
-    "perfection_plural": "perfeições",
-    "intelligence_plural": "inteligências"
+    "charismaPlural": "carismas",
+    "reputationPlural": "reputações",
+    "perfectionPlural": "perfeições",
+    "intelligencePlural": "inteligências"
   },
   "permissions": {
     "CREATE_INSTANT_INVITE": "Criar Convite Instantâneo",
