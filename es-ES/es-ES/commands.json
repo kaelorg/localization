@@ -127,17 +127,16 @@
   "autorole": {
     "remove": {
       "notRole": "<@&{{role}}> não está na lista do autocargo.",
-      "success": "Você removeu <@&{{role}}> como autocargo do servidor. Total de **{{size}}** cargos como autocargo do servidor."
+      "success": "Você removeu <@&{{role}}> da lista de autocargo do servidor."
     },
     "reset": {
       "author": "Autorole | Resetar",
-      "success": "Autocargo do servidor redefinida.",
-      "waiting": "Resetando um total de **{{size}}** cargos como autocargo. Aguarde..."
+      "success": "Resetei todas as configurações do autocargo."
     },
     "add": {
       "hasRole": "<@&{{role}}> já está na lista do autocargo.",
       "limit": "Você atingiu o limite máximo de 20 cargos ativos no autocargo. Para adicionar mais acesse meu painel.",
-      "success": "Você adicionou <@&{{role}}> como autocargo do servidor. Total de **{{size}}** cargos como autocargo do servidor."
+      "success": "Você adicionou <@&{{role}}> a lista de autocargo do servidor."
     },
     "list": {
       "noRoles": "Nenhum cargo adicionado.",
