@@ -449,7 +449,7 @@
     }
   },
   "rolldice": {
-    "title": "Rolar dados",
+    "author": "Kael | Rolar dados",
     "first": "Primeiro dado",
     "second": "Segundo dado",
     "dropped": "Caiu no lado **{{drop}}**"
