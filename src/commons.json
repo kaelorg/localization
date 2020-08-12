@@ -1,4 +1,7 @@
 {
+  "titles": {
+    "error": "Kael | Erro"
+  },
   "subjects": {
     "with": "com",
     "true": "sim",
