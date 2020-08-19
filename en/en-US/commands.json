@@ -453,5 +453,25 @@
     "first": "Primeiro dado",
     "second": "Segundo dado",
     "dropped": "Caiu no lado **{{drop}}**"
+  },
+  "allpoints": {
+    "sucess": {
+      "superpoints": "Superpontos!",
+      "title": "<:kaelsuperpoints:745503523030171738> **|** {{- author}} deu superpontos em **{{user}}**.",
+      "pointsTitle": "Pontos recebidos",
+      "points": "<:Rep:507421776054321152> 1 ponto de reputação.\n<:Perf:507419390732402688> 1 ponto de perfeição.\n<:Car:507423088233676811> 1 ponto de carisma.\n<:Int:507421511737409536> 1 ponto de inteligência.",
+      "payTitle": "Faturamento",
+      "pay": "**{{author}}** faturou {{ koins}} Koins <:koins:710557837776126053> .",
+      "extract": "Você ganhou {{ koins }} koins no superpontos em {{ time}}."
+    },
+    "unlocked": "Disponível.",
+    "in": "Disponível em **{{ time}}**.",
+    "blocked": {
+      "title": "Info | Pontos Sociais",
+      "reputation": "Nova reputação",
+      "perfection": "Nova perfeição",
+      "charisma": "Novo carisma",
+      "intelligence": "Nova inteligência"
+    }
   }
 }
