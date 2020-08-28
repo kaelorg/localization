@@ -5,10 +5,11 @@
     "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
   },
   "help": {
-    "description": "{{- author.mention}}, Kael, a Brazilian bot designed for managing Discord servers. Get access to my commands divided by category by accessing my website.",
+    "title": "Kael, o melhor porquinho que seu servidor pode ter!",
+    "description": "[Razões para adicionar o Kael ao seu servidor.](https://medium.com/kaeltec/por-que-o-kael-3bf2d81b4177)",
     "fields": [
       {
-        "name": "Command list",
+        "name": "Minhas funções e Dashboard",
         "route": "commands"
       },
       {
@@ -18,7 +19,7 @@
     ]
   },
   "vanity": {
-    "author": "Kael | Sistema de cargo premium",
+    "author": "Kael | Sistema de cargo por tempo",
     "description": "Esse é meu sistema de adição de vips para usuários premium no seu servidor. Acesse ao meu **[painel]({{- link}})** para configurar.",
     "list": {
       "title": "Membros vip no servidor",
@@ -253,20 +254,22 @@
   },
   "daily": {
     "author": "Kael | Daily",
-    "success": "Você recebeu **{{koins}}** koins.",
+    "success": "Você recebeu <:koins:710557837776126053 **{{koins}}** koins.",
     "cooldown": "Pegue seu bônus diário novamente em **{{time}}**.",
     "extract": "Você recebeu {{koins}} koins no seu daily em {{time}}."
   },
   "work": {
     "author": "Kael | Trabalho",
-    "cooldown": "Tome um chá, trabalhe novamente em **{{time}}**.",
+    "cooldown": "Trabalhe novamente em **{{time}}**.",
     "extract": "Você recebeu {{koins}} koins no seu trabalho em {{time}}."
   },
   "balance": {
     "wallet": "Na carteira",
-    "bank": "Saldo líquido",
+    "bank": "Saldo líquido | Banco",
+    "passEventTitle": "Passes de evento",
     "author": "Kael | Saldo",
-    "total": "Você possui um total de <:koins:710557837776126053> **{{total}}** Koins."
+    "total": "Você possui um total de <:koins:710557837776126053> **{{total}}** Koins.",
+    "passEvent": "<:kaelpass:747641058695053393> Você possui **0** passes de evento."
   },
   "deposit": {
     "author": "Kael | Depósito",
