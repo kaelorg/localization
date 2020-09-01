@@ -1,23 +1,23 @@
 {
   "titles": {
-    "error": "Kael | Erro"
+    "error": "Kael | Error"
   },
   "subjects": {
     "with": "with",
     "true": "yes",
     "false": "no",
-    "trueCapitalized": "Sim",
-    "falseCapitalized": "Não"
+    "trueCapitalized": "Yes",
+    "falseCapitalized": "No"
   },
   "economy": {
     "charisma": "charisma",
     "reputation": "reputation",
     "perfection": "perfection",
     "intelligence": "intelligence",
-    "charismaPlural": "carismas",
-    "reputationPlural": "reputações",
-    "perfectionPlural": "perfeições",
-    "intelligencePlural": "inteligências"
+    "charismaPlural": "charisms",
+    "reputationPlural": "reputations",
+    "perfectionPlural": "perfections",
+    "intelligencePlural": "intelligences"
   },
   "permissions": {
     "CREATE_INSTANT_INVITE": "Create Instant Invite",
