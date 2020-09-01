@@ -1,11 +1,11 @@
 {
-  "shard": "O servidor **{{- guild}}** se encontra na shard **{{shard}}**.",
+  "shard": "The **{{- guild}}**server is located at shard **{{shard}}**.",
   "ping": {
     "ping": "My actual ping is **{{response}}ms**!",
     "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
   },
   "help": {
-    "title": "Kael, o melhor porquinho que seu servidor pode ter!",
+    "title": "Kael, the best piggy your server can have!",
     "description": "[Razões para adicionar o Kael ao seu servidor.](https://medium.com/kaeltec/por-que-o-kael-3bf2d81b4177)",
     "fields": [
       {
@@ -47,12 +47,12 @@
     "contatoDesc": "Para assuntos comerciais tratar em **support@kaelbot.xyz**."
   },
   "avatar": {
-    "title": "Avatar de {{- user}}",
+    "title": "{{- user}}'s avatar",
     "titleServer": "Avatar do servidor **{{- guild}}**"
   },
   "userinfo": {
-    "constNick": "Sem apelido",
-    "title": "Informações de **{{- user}}**",
+    "constNick": "No nickname",
+    "title": "Info about **{{- user}}**",
     "nick": "Nickname",
     "createdAt": "Account created in ",
     "joinedAt": "Join the server in ",
@@ -64,8 +64,8 @@
     "time": "Booster desde **{{time}}**!"
   },
   "kick": {
-    "reason": "Motivo",
-    "author": "Kael | Expulsão",
+    "reason": "Reason",
+    "author": "Kael | Kick",
     "noReason": "Not Specified",
     "description": "{{- author}} expulsou **{{- member}}**!",
     "missingUserPermissions": "You don't have permissions to kick this member.",
@@ -77,7 +77,7 @@
     "description": "{{- author}} desbaniu **{{- user}}**!"
   },
   "ban": {
-    "reason": "Motivo",
+    "reason": "Reason",
     "author": "Kael | Banimento",
     "noReason": "Not Specified",
     "description": "{{- author}} baniu **{{- member}}**!",
