@@ -59,9 +59,37 @@
     "sharedServers": "Shared servers",
     "noSharedServers": "None"
   },
+  "serverinfo": {
+    "title": "Informações de {{- server}}",
+    "shardTitle": "Shard conectada",
+    "shardDesc": "Servidor conectado a shard **{{-shard}}** do kael.",
+    "owner": "<:GuildOwnerDiscord:750748809436332134> Proprietário(a)",
+    "idTitle": "ID do servidor",
+    "region": "Região do servidor",
+    "kael": "<:KaelRelogio:707764843720998923> Quando o kael entrou",
+    "kaelIn": "Em **{{-server}}**",
+    "server": "<:KaelRelogio:707764843720998923> Criação do servidor",
+    "serverIn": "Servidor criado em **{{-server}}**.",
+    "members": "<:MemberDiscord:750747226879426581> Membros no servidor",
+    "membersCount": "**{{-members}}** membros no servidor.",
+    "bots": "Robots",
+    "botsCount": "**{{-bots}}** robots no servidor.",
+    "channelsGuild": "Canais do servidor",
+    "channelText": "<:TextChannel:750747227076558908> Canais de texto",
+    "channelVoice": "<:VoiceChannel:750747227076690043> Canais de voz",
+    "channelNews": "<:NewsChannelDiscord:750747226745339905> Canais de anúncio",
+    "roles": "Cargos/Tags",
+    "rolesCount": "Há **{{-roles}}** cargos no servidor.",
+    "null": "Nenhum",
+    "membersStatus": "Status membros",
+    "membersOff": "Offline",
+    "membersIdle": "Ausentes",
+    "membersDnd": "Ocupados",
+    "membersOn": "Online"
+  },
   "serverbooster": {
-    "noBooster": "{{- member}} não é booster.",
-    "time": "Booster desde **{{time}}**!"
+    "noBooster": "{{- member}} não está impulsionando o servidor.",
+    "time": "<:1mes:725369380921409578> Impulsionando o servidor desde **{{time}}**!"
   },
   "kick": {
     "reason": "Reason",
@@ -254,13 +282,13 @@
   },
   "daily": {
     "author": "Kael | Daily",
-    "success": "Você recebeu <:koins:710557837776126053 **{{koins}}** koins.",
-    "cooldown": "Pegue seu bônus diário novamente em **{{time}}**.",
-    "extract": "Você recebeu {{koins}} koins no seu daily em {{time}}."
+    "success": "Você recebeu <:koins:710557837776126053> **{{koins}}** koins do seu bônus diário.",
+    "cooldown": "<:KaelRelogio:707764843720998923> Pegue seu bônus diário novamente em **{{time}}**.",
+    "extract": "Você recebeu {{koins}} koins no seu bônus diário em {{time}}."
   },
   "work": {
     "author": "Kael | Trabalho",
-    "cooldown": "Trabalhe novamente em **{{time}}**.",
+    "cooldown": "<:KaelRelogio:707764843720998923> Trabalhe novamente em **{{time}}**.",
     "extract": "Você recebeu {{koins}} koins no seu trabalho em {{time}}."
   },
   "balance": {
