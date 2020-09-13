@@ -91,6 +91,25 @@
     "noBooster": "{{- member}} não está impulsionando o servidor.",
     "time": "<:1mes:725369380921409578> Impulsionando o servidor desde **{{time}}**!"
   },
+  "roleall": {
+    "roleLimit": "Você só pode definir 5 cargos por comando!",
+    "hasProcess": "Já existe um processo em andamento. Aguarde até o mesmo ser finalizado!",
+    "notPermissions": "Não é possível manipular algum(s) cargo(s) definido(s). Verifique se meu cargo está acima do(s) cargo(s) definido(s).",
+    "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, processo em andamento. Tempo estimado até o término: **{{time}}**.",
+    "add": {
+      "success": "Pronto! Cargo adicionado a **{{count}}** usuários."
+    },
+    "remove": {
+      "success": "Pronto! Cargo removido de **{{count}}** usuários."
+    },
+    "help": {
+      "author": "Ajuda | CargoTodos",
+      "addTitle": "roleall add <@cargo>",
+      "add": "Para adicionar um cargo a todos do servidor.",
+      "removeTitle": "roleall remover <@cargo>",
+      "remove": "Para remover um cargo a todos do servidor."
+    }
+  },
   "kick": {
     "reason": "Motivo",
     "author": "Kael | Expulsão",
@@ -100,9 +119,9 @@
     "missingClientPermissions": "Eu não tenho permissões para expulsar este membro."
   },
   "unban": {
-    "isNotBanned": "Este usuário não está banido no servidor.",
     "author": "Kael | Desbanimento",
-    "description": "{{- author}} desbaniu **{{- user}}**!"
+    "description": "{{- author}} desbaniu **{{- user}}**!",
+    "isNotBanned": "Este usuário não está banido no servidor."
   },
   "ban": {
     "reason": "Motivo",
@@ -180,7 +199,7 @@
       "remove": "Para remover um cargo a lista de autocargos do servidor.",
       "listTitle": "autocargo lista",
       "list": "Para visualizar a lista de cargos ativos com função autocargo no servidor.",
-      "resetTitle": "autocargo reset",
+      "resetTitle": "autocargo resetar",
       "reset": "Para resetar a lista de cargos com função autocargo do servidor."
     }
   },
@@ -451,30 +470,30 @@
       "hufflepuff": "Para adicionar pontos a casa Lufa-Lufa."
     },
     "gryffindor": {
-      "addSucess": "Você deu mais **{{points}}** pontos para a casa Grifinória.",
+      "addSuccess": "Você deu mais **{{points}}** pontos para a casa Grifinória.",
       "missingPoints": "Defina a quantidade de pontos a dar a casa **Grifinória**.",
-      "removeSucess": "Você removeu mais **{{points}}** pontos da casa Grifinória.",
+      "removeSuccess": "Você removeu mais **{{points}}** pontos da casa Grifinória.",
       "missingRemove": "Defina a quantidade de pontos a remover da casa **Grifinória**.",
       "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
     },
     "slytherin": {
-      "addSucess": "Você deu mais **{{points}}** pontos para a casa Sonserina.",
+      "addSuccess": "Você deu mais **{{points}}** pontos para a casa Sonserina.",
       "missingPoints": "Defina a quantidade de pontos a dar a casa **Sonserina**.",
-      "removeSucess": "Você removeu mais **{{points}}** pontos da casa Sonserina.",
+      "removeSuccess": "Você removeu mais **{{points}}** pontos da casa Sonserina.",
       "missingRemove": "Defina a quantidade de pontos a remover da casa **Sonserina**.",
       "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
     },
     "ravenclaw": {
-      "addSucess": "Você deu mais **{{points}}** pontos para a casa Corvinal.",
+      "addSuccess": "Você deu mais **{{points}}** pontos para a casa Corvinal.",
       "missingPoints": "Defina a quantidade de pontos a dar a casa **Corvinal**.",
-      "removeSucess": "Você removeu mais **{{points}}** pontos da casa Corvinal.",
+      "removeSuccess": "Você removeu mais **{{points}}** pontos da casa Corvinal.",
       "missingRemove": "Defina a quantidade de pontos a remover da casa **Corvinal**.",
       "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
     },
     "hufflepuff": {
-      "addSucess": "Você deu mais **{{points}}** pontos para a casa Lufa-Lufa.",
+      "addSuccess": "Você deu mais **{{points}}** pontos para a casa Lufa-Lufa.",
       "missingPoints": "Defina a quantidade de pontos a dar a casa **Lufa-Lufa**.",
-      "removeSucess": "Você removeu mais **{{points}}** pontos da casa Lufa-Lufa.",
+      "removeSuccess": "Você removeu mais **{{points}}** pontos da casa Lufa-Lufa.",
       "missingRemove": "Defina a quantidade de pontos a remover da casa **Lufa-Lufa**.",
       "removeLimit": "Você só pode remover até cinco milhões (5.000.000) de pontos por comando!"
     }
@@ -486,7 +505,7 @@
     "dropped": "Caiu no lado **{{drop}}**"
   },
   "allpoints": {
-    "sucess": {
+    "success": {
       "superpoints": "Superpontos!",
       "title": "<:kaelsuperpoints:745503523030171738> **|** {{- author}} deu superpontos em **{{user}}**.",
       "pointsTitle": "Pontos recebidos",
