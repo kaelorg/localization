@@ -92,15 +92,21 @@
     "time": "<:1mes:725369380921409578> Impulsionando o servidor desde **{{time}}**!"
   },
   "roleall": {
+    "roles": "Cargos",
+    "estimatedTime": "Tempo estimado",
     "roleLimit": "Você só pode definir 5 cargos por comando!",
     "hasProcess": "Já existe um processo em andamento. Aguarde até o mesmo ser finalizado!",
     "notPermissions": "Não é possível manipular algum(s) cargo(s) definido(s). Verifique se meu cargo está acima do(s) cargo(s) definido(s).",
     "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, processo em andamento. Tempo estimado até o término: **{{time}}**.",
-    "add": {
-      "success": "Pronto! Cargo adicionado a **{{count}}** usuários."
-    },
     "remove": {
-      "success": "Pronto! Cargo removido de **{{count}}** usuários."
+      "author": "Kael | CargoTodos (Remover)",
+      "success": "Cargo removido de **{{count}}** usuário.",
+      "success_plural": "Cargo removido de **{{count}}** usuários."
+    },
+    "add": {
+      "author": "Kael | CargoTodos (Adicionar)",
+      "success": "Cargo adicionado em **{{count}}** usuário.",
+      "success_plural": "Cargo adicionado em **{{count}}** usuários."
     },
     "help": {
       "author": "Ajuda | CargoTodos",
@@ -142,7 +148,6 @@
     "noReason": "Não Especificado",
     "author": "Kael | Congelamento",
     "description": "{{- author}} congelou **{{- member}}**!",
-    "timeDescription": "<:KaelRelogio:707764843720998923> **{{time}}**",
     "missingUserPermissions": "Você não tem permissões para banir este membro.",
     "missingClientPermissions": "Eu não tenho permissões para banir este membro.",
     "invalidRole": "O cargo configurado é inválido, configure um cargo válido para prosseguir!",
@@ -173,13 +178,12 @@
     "noArgsProvided": "Você precisa dizer o número de mensagens ou o **id** da mensagem pra eu apagar."
   },
   "autorole": {
+    "reset": {
+      "success": "Resetei todas as configurações do autocargo."
+    },
     "remove": {
       "notRole": "<@&{{role}}> não está na lista do autocargo.",
       "success": "Você removeu <@&{{role}}> da lista de autocargo do servidor."
-    },
-    "reset": {
-      "author": "Autorole | Resetar",
-      "success": "Resetei todas as configurações do autocargo."
     },
     "add": {
       "hasRole": "<@&{{role}}> já está na lista do autocargo.",
