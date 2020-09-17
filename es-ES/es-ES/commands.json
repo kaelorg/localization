@@ -100,13 +100,15 @@
     "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, processo em andamento. Tempo estimado até o término: **{{time}}**.",
     "remove": {
       "author": "Kael | CargoTodos (Remover)",
-      "success": "Cargo removido de **{{count}}** usuário.",
-      "success_plural": "Cargo removido de **{{count}}** usuários."
+      "failed": "Nenhum usuário possui o cargo inserido.",
+      "success": "Cargo removido de **{{size}}** usuários.",
+      "failed_plural": "Nenhum usuário possui os cargos inseridos."
     },
     "add": {
       "author": "Kael | CargoTodos (Adicionar)",
-      "success": "Cargo adicionado em **{{count}}** usuário.",
-      "success_plural": "Cargo adicionado em **{{count}}** usuários."
+      "success": "Cargo adicionado em **{{size}}** usuários.",
+      "failed": "Todos os usuários estam com o cargo inserido.",
+      "failed_plural": "Todos os usuários estam com os cargos inseridos."
     },
     "help": {
       "author": "Ajuda | CargoTodos",
