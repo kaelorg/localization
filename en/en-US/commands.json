@@ -6,10 +6,10 @@
   },
   "help": {
     "title": "Kael, the best piggy your server can have!",
-    "description": "[Razões para adicionar o Kael ao seu servidor.](https://medium.com/kaeltec/por-que-o-kael-3bf2d81b4177)",
+    "description": "[Reasons to add Kael to your server.](https://medium.com/kaeltec/por-que-o-kael-3bf2d81b4177)",
     "fields": [
       {
-        "name": "Minhas funções e Dashboard",
+        "name": "My functions and Dashboard",
         "route": "commands"
       },
       {
@@ -19,36 +19,36 @@
     ]
   },
   "vanity": {
-    "author": "Kael | Sistema de cargo por tempo",
-    "description": "Esse é meu sistema de adição de vips para usuários premium no seu servidor. Acesse ao meu **[painel]({{- link}})** para configurar.",
+    "author": "Kael | Timed role system ",
+    "description": "This is my system of adding Vips for premium users on your server. Access my **[panel]({{- link}})** to configure.",
     "list": {
-      "title": "Membros vip no servidor",
-      "noneUsers": "Nenhum membro adicionado..."
+      "title": "Vip members on the server",
+      "noneUsers": "No members added..."
     },
     "add": {
-      "title": "Usuário vip adicionado",
-      "donateBy": "Vip de",
-      "role": "Vip recebido",
-      "receivedBy": "Usuário que recebeu o vip",
-      "timeLeft": "Tempo restante do vip",
-      "missingTime": "Você precisa inserir o tempo do vip.",
-      "alreadyGive": "Desculpe... Você já deu seu vip pra algum usuário.",
-      "userAlreadyVip": "Desculpe... O membro que você inseriu já é vip no servidor.",
-      "noVip": "Você não é um usuário vip no servidor."
+      "title": "Added vip user",
+      "donateBy": "Vip of",
+      "role": "Vip received",
+      "receivedBy": "User who received the vip",
+      "timeLeft": "Vip remaining time",
+      "missingTime": "You need to enter the vip time.",
+      "alreadyGive": "Sorry... You already gave your vip to a user.",
+      "userAlreadyVip": "Sorry... The member you entered is already a vip on the server.",
+      "noVip": "You are not a vip user on the server."
     }
   },
   "support": {
     "title": "Kael, a bot for managing Discord servers.",
     "website": "Website",
-    "websiteDesc": "Lista com meus comandos e acesso ao meu painel de configurações você encontra no meu [website](https://kaelbot.xyz).",
+    "websiteDesc": "List with my commands and access to my settings panel you find on my [website](https://kaelbot.xyz).",
     "server": "Discord Server",
     "serverDesc": "[Kael's Official Server (https://discord.gg/DBMvAzA)",
     "contato": "Contact",
-    "contatoDesc": "Para assuntos comerciais tratar em **support@kaelbot.xyz**."
+    "contatoDesc": "For commercial matters, contact **support@kaelbot.xyz**."
   },
   "avatar": {
     "title": "{{- user}}'s avatar",
-    "titleServer": "Avatar do servidor **{{- guild}}**"
+    "titleServer": "Server avatar ** {{- guild}} **"
   },
   "userinfo": {
     "constNick": "No nickname",
@@ -60,18 +60,18 @@
     "noSharedServers": "None"
   },
   "serverinfo": {
-    "title": "Informações de {{- server}}",
-    "shardTitle": "Shard conectada",
-    "shardDesc": "Servidor conectado a shard **{{-shard}}** do kael.",
-    "owner": "<:GuildOwnerDiscord:750748809436332134> Proprietário(a)",
-    "idTitle": "ID do servidor",
-    "region": "Região do servidor",
-    "kael": "<:KaelRelogio:707764843720998923> Quando o kael entrou",
-    "kaelIn": "Em **{{-server}}**",
-    "server": "<:KaelRelogio:707764843720998923> Criação do servidor",
-    "serverIn": "Servidor criado em **{{-server}}**.",
-    "members": "<:MemberDiscord:750747226879426581> Membros no servidor",
-    "membersCount": "**{{-members}}** membros no servidor.",
+    "title": "{{- server}} information",
+    "shardTitle": "Connected Shard",
+    "shardDesc": "Server connected to kael ** {{-shard}} **.",
+    "owner": "<:GuildOwnerDiscord:750748809436332134> Owner",
+    "idTitle": "Server id",
+    "region": "Server region",
+    "kael": "<:KaelRelogio:707764843720998923> When kael entered",
+    "kaelIn": "On ** {{-server}} **",
+    "server": "<:KaelRelogio:707764843720998923> Server creation",
+    "serverIn": "Server created at **{{-server}}**.",
+    "members": "<:MemberDiscord:750747226879426581> Members on the server",
+    "membersCount": "**{{-members}}** members on the server.",
     "bots": "Robots",
     "botsCount": "**{{-bots}}** robots no servidor.",
     "channelsGuild": "Canais do servidor",
