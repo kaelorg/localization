@@ -1,5 +1,5 @@
 {
-  "shard": "The **{{- guild}}**server is located at shard **{{shard}}**.",
+  "shard": "The **{{- guild}}** server is located at shard **{{shard}}**.",
   "ping": {
     "ping": "My actual ping is **{{response}}ms**!",
     "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
@@ -29,7 +29,7 @@
       "title": "Added vip user",
       "donateBy": "Vip of",
       "role": "Vip received",
-      "receivedBy": "User who received the vip",
+      "receivedBy": "User that received the vip",
       "timeLeft": "Vip remaining time",
       "missingTime": "You need to enter the vip time.",
       "alreadyGive": "Sorry... You already gave your vip to a user.",
@@ -47,12 +47,12 @@
     "contatoDesc": "For commercial matters, contact **support@kaelbot.xyz**."
   },
   "avatar": {
-    "title": "{{- user}}'s avatar",
+    "title": "Avatar of {{- user}}",
     "titleServer": "Server avatar ** {{- guild}} **"
   },
   "userinfo": {
     "constNick": "No nickname",
-    "title": "Info about **{{- user}}**",
+    "title": "Informations of **{{- user}}**",
     "nick": "Nickname",
     "createdAt": "Account created in ",
     "joinedAt": "Join the server in ",
