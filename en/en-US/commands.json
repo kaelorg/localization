@@ -64,7 +64,7 @@
     "shardTitle": "Connected Shard",
     "shardDesc": "Server connected to kael ** {{-shard}} **.",
     "owner": "<:GuildOwnerDiscord:750748809436332134> Owner",
-    "idTitle": "Server id",
+    "idTitle": "Server ID",
     "region": "Server region",
     "kael": "<:KaelRelogio:707764843720998923> When kael entered",
     "kaelIn": "On ** {{-server}} **",
@@ -78,8 +78,8 @@
     "channelText": "<:TextChannel:750747227076558908> Text Channels",
     "channelVoice": "<:VoiceChannel:750747227076690043> Voice Channels",
     "channelNews": "<:NewsChannelDiscord:750747226745339905> Ad channels",
-    "roles": "Roles / Tags",
-    "rolesCount": "There are **{{-roles}}** positions on the server.",
+    "roles": "Roles /Tags",
+    "rolesCount": "There are **{{-roles}}** roles in server.",
     "null": "None",
     "membersStatus": "Member status",
     "membersOff": "Offline",
@@ -88,13 +88,13 @@
     "membersOn": "Online"
   },
   "serverbooster": {
-    "noBooster": "{{- member}} it is not server boosting.",
+    "noBooster": "{{- member}} is not server boosting.",
     "time": "<:1mes:725369380921409578> Boosting the server since ** {{time}} **!"
   },
   "roleall": {
     "roles": "Roles",
     "estimatedTime": "Estimated time",
-    "roleLimit": "You can only define 5 positions per command!",
+    "roleLimit": "You can only define 5 roles per command!",
     "hasProcess": "There is already an ongoing process. Wait until it is finished!",
     "notPermissions": "Não é possível manipular algum(s) cargo(s) definido(s). Verifique se meu cargo está acima do(s) cargo(s) definido(s).",
     "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, processo em andamento. Tempo estimado até o término: **{{time}}**.",
