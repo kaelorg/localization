@@ -19,22 +19,35 @@
     ]
   },
   "vanity": {
-    "author": "Kael | Sistema de cargo por tempo",
+    "author": "Kael | Sistema de cargo premium",
     "description": "Esse é meu sistema de adição de vips para usuários premium no seu servidor. Acesse ao meu **[painel]({{- link}})** para configurar.",
-    "list": {
+    "vips": {
       "title": "Membros vip no servidor",
       "noneUsers": "Nenhum membro adicionado..."
     },
+    "list": {
+      "noneUsers": "Nenhum membro adicionado...",
+      "noVip": "**{{- member}}** não é um usuário vip no servidor.",
+      "noVipsAdded": "**{{- member}}** não tem usuário vip adicionado.",
+      "title": "Membros vip no servidor adicionado por **{{- member}}**"
+    },
+    "remove": {
+      "title": "Vip removido",
+      "noVip": "Você não é um usuário vip no servidor.",
+      "noUserVip": "O membro que você inseriu não é vip no servidor.",
+      "description": "O vip de **{{- member}}** foi removido com sucesso.",
+      "noAddedUserVip": "O membro que você inseriu não é vip adicionado por você."
+    },
     "add": {
-      "title": "Usuário vip adicionado",
-      "donateBy": "Vip de",
-      "role": "Vip recebido",
-      "receivedBy": "Usuário que recebeu o vip",
-      "timeLeft": "Tempo restante do vip",
+      "by": "De",
+      "role": "Cargo",
+      "receivedBy": "Para",
+      "title": "Vip adicionado",
+      "timeLeft": "Tempo restante",
+      "noVip": "Você não é um usuário vip no servidor.",
       "missingTime": "Você precisa inserir o tempo do vip.",
-      "alreadyGive": "Desculpe... Você já deu seu vip pra algum usuário.",
-      "userAlreadyVip": "Desculpe... O membro que você inseriu já é vip no servidor.",
-      "noVip": "Você não é um usuário vip no servidor."
+      "alreadyGive": "Você já deu seu vip para **10** pessoas.",
+      "userAlreadyVip": "O membro que você inseriu já é vip no servidor."
     }
   },
   "support": {
@@ -55,9 +68,7 @@
     "title": "Informações de **{{- user}}**",
     "nick": "Apelido",
     "createdAt": "Conta criada em ",
-    "joinedAt": "Entrou no servidor em ",
-    "sharedServers": "Servidores compartilhados",
-    "noSharedServers": "Nenhum"
+    "joinedAt": "Entrou no servidor em "
   },
   "serverinfo": {
     "title": "Informações de {{- server}}",
@@ -93,11 +104,11 @@
   },
   "roleall": {
     "roles": "Cargos",
-    "estimatedTime": "Tempo estimado",
+    "estimatedTime": "Tempo estimado até o término",
     "roleLimit": "Você só pode definir 5 cargos por comando!",
     "hasProcess": "Já existe um processo em andamento. Aguarde até o mesmo ser finalizado!",
     "notPermissions": "Não é possível manipular algum(s) cargo(s) definido(s). Verifique se meu cargo está acima do(s) cargo(s) definido(s).",
-    "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, processo em andamento. Tempo estimado até o término: **{{time}}**.",
+    "awaitProcess": "<:KaelRelogio:707764843720998923> **|** Tudo certo, o processo já está em andamento. Isso pode levar algum tempo, mas, avisaremos quando estiver tudo pronto. Tempo estimado até o término: **{{time}}**.",
     "remove": {
       "author": "Kael | CargoTodos (Remover)",
       "failed": "Nenhum usuário possui o cargo inserido.",
@@ -282,6 +293,14 @@
     "cooldown": "Dê outro ponto de inteligência em **{{time}}**.",
     "success": "<:Int:507421511737409536> **|** {{- author}} deu um ponto de inteligência em **{{user}}**."
   },
+  "allpoints": {
+    "author": "Kael | Superpontos",
+    "pointsTitle": "Pontos recebidos",
+    "cooldown": "Dê superpontos novamente em **{{time}}**.",
+    "notHaveKoins": "Você não tem koins suficientes para executar o comando.",
+    "title": "<:kaelsuperpoints:745503523030171738> **|** {{- author}} deu superpontos em **{{user}}**.",
+    "points": "<:Rep:507421776054321152> 1 ponto de reputação.\n<:Perf:507419390732402688> 1 ponto de perfeição.\n<:Car:507423088233676811> 1 ponto de carisma.\n<:Int:507421511737409536> 1 ponto de inteligência."
+  },
   "ranking": {
     "author": "Ajuda | Lista de classificação",
     "reputation": {
@@ -370,7 +389,7 @@
       "success": "Você transferiu <:koins:710557837776126053> **{{koins}}** koins para o banco **{{- bank}}**!"
     }
   },
-  "rob": {
+  "steal": {
     "author": "Kael | Roubo",
     "noMoney": "Você tentou roubar **{{- user}}**, porém, o mesmo estava sem dinheiro! Você perdeu {{koins}}.",
     "cooldown": "Foi por pouco hoje, roube novamente em **{{time}}**."
@@ -509,25 +528,5 @@
     "first": "Primeiro dado",
     "second": "Segundo dado",
     "dropped": "Caiu no lado **{{drop}}**"
-  },
-  "allpoints": {
-    "success": {
-      "superpoints": "Superpontos!",
-      "title": "<:kaelsuperpoints:745503523030171738> **|** {{- author}} deu superpontos em **{{user}}**.",
-      "pointsTitle": "Pontos recebidos",
-      "points": "<:Rep:507421776054321152> 1 ponto de reputação.\n<:Perf:507419390732402688> 1 ponto de perfeição.\n<:Car:507423088233676811> 1 ponto de carisma.\n<:Int:507421511737409536> 1 ponto de inteligência.",
-      "payTitle": "Faturamento",
-      "pay": "**{{author}}** faturou {{ koins}} Koins <:koins:710557837776126053> .",
-      "extract": "Você ganhou {{ koins }} koins no superpontos em {{ time}}."
-    },
-    "unlocked": "Disponível.",
-    "in": "Disponível em **{{ time}}**.",
-    "blocked": {
-      "title": "Info | Pontos Sociais",
-      "reputation": "Nova reputação",
-      "perfection": "Nova perfeição",
-      "charisma": "Novo carisma",
-      "intelligence": "Nova inteligência"
-    }
   }
 }
