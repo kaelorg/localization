@@ -2,6 +2,9 @@
   "rolldice": {
     "description": "Role um dado comum."
   },
+  "serverinfo": {
+    "description": "Mostra informações do servidor."
+  },
   "shard": {
     "description": "Mostra em qual shard o servidor está."
   },
@@ -29,6 +32,10 @@
   "support": {
     "description": "Detalhes e informações do bot."
   },
+  "allpoints": {
+    "usage": "<@usuário>",
+    "description": "Dê super pontos a um usuário."
+  },
   "serverbooster": {
     "usage": "[@membro]",
     "description": "Tenha a sua data de ativação do nitro booster no servidor ou de algum usuário."
@@ -43,7 +50,7 @@
   },
   "userinfo": {
     "usage": "[@usuário]",
-    "description": "Receba informações pertinentes suas ou de um determinado usuário."
+    "description": "Mostra informações de um usuário."
   },
   "deposit": {
     "usage": "[all] | <valor>",
@@ -63,7 +70,7 @@
   },
   "unban": {
     "usage": "<@membro> [motivo]",
-    "description": "Anistie determinado usuário de um banimento."
+    "description": "Remova o banimento de um usuário."
   },
   "kick": {
     "usage": "<@membro> [motivo]",
@@ -128,12 +135,15 @@
       }
     }
   },
-  "vanity": {
-    "usage": "[add|vips]",
-    "description": "Adicione seu vip em um amigo(a) ou tenha informações sobre usuários vips no servidor.",
+  "roleall": {
+    "usage": "[add|remove]",
+    "description": "Veja uma lista de informações de como usar o cargotodos.",
     "subcommands": {
       "add": {
-        "usage": "<@membro> <tempo>"
+        "usage": "<@cargo 1> [@cargo 2]"
+      },
+      "remove": {
+        "usage": "<@cargo 1> [@cargo 2]"
       }
     }
   },
@@ -146,6 +156,21 @@
       },
       "remove": {
         "usage": "<@cargo>"
+      }
+    }
+  },
+  "vanity": {
+    "usage": "[add|list|vips|remove]",
+    "description": "Adicione seu vip em um amigo(a) ou tenha informações sobre usuários vips no servidor.",
+    "subcommands": {
+      "list": {
+        "usage": "[@membro]"
+      },
+      "add": {
+        "usage": "<@membro>"
+      },
+      "remove": {
+        "usage": "<@membro>"
       }
     }
   },
