@@ -2,7 +2,10 @@
   "shard": "The **{{- guild}}** server is located at shard **{{shard}}**.",
   "ping": {
     "ping": "My actual ping is **{{response}}ms**!",
-    "shard": "Shard **{{shard}}** ping is **{{response}}ms**!"
+    "shard": {
+      "notExist": "A shard inserida não existe.",
+      "ping": "O ping da shard **{{shard}}** é **{{response}}ms**!"
+    }
   },
   "help": {
     "title": "Kael, the best piggy your server can have!",
@@ -382,7 +385,7 @@
     "noTransferRate": "Você não possui saldo líquido mais taxa para realizar está transferência.",
     "extract": "Você transferiu {{koins}} koins para {{- user.username}}#{{user.discriminator}} ({{user.id}}) em {{time}}.",
     "approvedDescription": "Transferência realizada de <:koins:710557837776126053> **{{koins}}** Koins para **{{- user.username}}#{{user.discriminator}}**.",
-    "description": "Transferência solicitada de <:koins:710557837776126053> **{{val}}** Koins com taxa de  {{percent}}%. Taxa aplicada de <:koins:710557837776126053> **{{pay}}** Koins.",
+    "description": "Transferência solicitada de <:koins:710557837776126053> **{{value}}** Koins com taxa de {{percent}}%. Taxa aplicada de <:koins:710557837776126053> **{{pay}}** Koins.",
     "server": {
       "extractBank": "Você movimentou na sua conta um total de {{koins}} em {{time}}.",
       "extract": "Você transferiu {{koins}} koins para o banco {{- server.name}} ({{server.id}}) em {{time}}.",
