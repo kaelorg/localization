@@ -8,7 +8,7 @@
   "notAcceptSelf": "This user is you... I can't accept it.",
   "devOnly": "You must be a verified developer to run this command.",
   "guildOnly": "This command can only be used in a server.",
-  "missingGeneric": "Você precisa inserir o argumento.",
+  "missingGeneric": "You need to enter the argument.",
   "missingValidId": "You need to provide me a valid id.",
   "missingString": "You need to provide me with a text.",
   "missingHex": "You must define a hexadecimal value.",
