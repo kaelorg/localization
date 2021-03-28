@@ -3,8 +3,8 @@
   "ping": {
     "ping": "My actual ping is **{{response}}ms**!",
     "shard": {
-      "notExist": "A shard inserida não existe.",
-      "ping": "O ping da shard **{{shard}}** é **{{response}}ms**!"
+      "notExist": "The inserted shard does not exist.",
+      "ping": "The ping from the shard **{{shard}}** is **{{response}}ms**!"
     }
   },
   "help": {
