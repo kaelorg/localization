@@ -22,22 +22,22 @@
     ]
   },
   "vanity": {
-    "author": "Kael | Sistema de cargo premium",
+    "author": "Kael | Premium Cargo System",
     "description": "This is my system of adding Vips for premium users on your server. Access my **[panel]({{- link}})** to configure.",
     "vips": {
-      "title": "Membros vip no servidor",
-      "noneUsers": "Nenhum membro adicionado..."
+      "title": "Vip members on the server",
+      "noneUsers": "No members added..."
     },
     "list": {
       "noneUsers": "No members added...",
-      "noVip": "**{{- member}}** não é um usuário vip no servidor.",
-      "noVipsAdded": "**{{- member}}** não tem usuário vip adicionado.",
-      "title": "Membros vip no servidor adicionado por **{{- member}}**"
+      "noVip": "**{{- member}}** is not a VIP user on the server.",
+      "noVipsAdded": "**{{- member}}** has no added VIP user.",
+      "title": "VIP members on the server added by **{{- member}}**"
     },
     "remove": {
-      "title": "Vip removido",
-      "noVip": "Você não é um usuário vip no servidor.",
-      "noUserVip": "O membro que você inseriu não é vip no servidor.",
+      "title": "VIP removed",
+      "noVip": "You are not a VIP user on the server.",
+      "noUserVip": "The member you entered is not a VIP on the server.",
       "description": "O vip de **{{- member}}** foi removido com sucesso.",
       "noAddedUserVip": "O membro que você inseriu não é vip adicionado por você."
     },
